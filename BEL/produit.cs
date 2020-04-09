@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
-    class produit
+    public class produit
     {
         public Int32 reference { get; set; }
         public Int32 qt_stock { get; set; }
