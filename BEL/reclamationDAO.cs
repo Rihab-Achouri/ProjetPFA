@@ -7,24 +7,24 @@ using System.Data.OleDb;
 
 namespace BEL
 {
-    class produitDAO
+    class reclamationDAO
     {
 
-        public static bool Insert_produit(int RF, int qt1, int qt2,DateTime date_de_vente )
+        public static bool Insert_produit(int RF, int qt1, int qt2, DateTime date_de_vente)
         {
-            string requete = String.Format("insert into produit (reference, qt_stock,qt_vendue,date_de_vente)" +
-                " values ('{0}','{1}','{2}','{3}','{4}',{5}');",RF, qt1 , qt2,date_de_vente);
+            string requete = String.Format("insert into reclamation (reference, qt_stock,qt_vendue,date_de_vente)" +
+                " values ('{0}','{1}','{2}','{3}','{4}',{5}');", RF, qt1, qt2, date_de_vente);
             return utils.miseajour(requete);
         }
 
-        public static bool Update_produitl(int RF, int qt1, int qt2, DateTime date_de_vente)
+        public static bool Update_reclamation(int RF, int qt1, int qt2, DateTime date_de_vente)
         {
-            string requete = String.Format("update produit set qt_stock='{0}', qt_vendue='{1}'," +
+            string requete = String.Format("update reclamation set qt_stock='{0}', qt_vendue='{1}'," +
                 " date_de_vente='{2}' where ID={5};", qt1, qt2, date_de_vente, RF);
             return utils.miseajour(requete);
         }
 
-        public static bool Delete_produit(int RF)
+        public static bool Delete_reclamation(int RF)
         {
             string requete = String.Format("delete from produit where reference={0};", RF);
             return utils.miseajour(requete);
@@ -60,7 +60,7 @@ namespace BEL
             {
                 c = new produit
                 {
-                    reference= rd.GetInt32(0),
+                    reference = rd.GetInt32(0),
                     qt_stock = rd.GetInt32(1),
                     qt_vendue = rd.GetInt32(2),
                     date_de_vente = rd.GetDateTime(3),
@@ -73,4 +73,5 @@ namespace BEL
         }
     }
 }
+
 
