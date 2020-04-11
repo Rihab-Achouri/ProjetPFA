@@ -106,6 +106,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="reclamation_personnel.resx">
+      <DependentUpon>reclamation_personnel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="relamation_client.resx">
       <DependentUpon>relamation_client.cs</DependentUpon>
     </EmbeddedResource>

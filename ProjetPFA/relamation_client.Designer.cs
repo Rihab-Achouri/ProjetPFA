@@ -31,31 +31,31 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(relamation_client));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -95,32 +95,72 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Le contexe de la réclamation";
             // 
-            // label2
+            // textBox4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 107);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 18);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Departement";
+            this.textBox4.Location = new System.Drawing.Point(193, 29);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(121, 25);
+            this.textBox4.TabIndex = 22;
             // 
-            // label1
+            // label10
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 74);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 18);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Produit";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(9, 36);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(176, 18);
+            this.label10.TabIndex = 21;
+            this.label10.Text = "Num de la réclamation";
             // 
-            // label3
+            // button6
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 143);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 18);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Date";
+            this.button6.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(219, 279);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(95, 36);
+            this.button6.TabIndex = 20;
+            this.button6.Text = "Modifier";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(193, 104);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 26);
+            this.comboBox2.TabIndex = 3;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(193, 66);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 26);
+            this.comboBox1.TabIndex = 8;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(118, 279);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(95, 36);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Consulter";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(193, 136);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(121, 25);
+            this.textBox3.TabIndex = 7;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(118, 178);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(196, 91);
+            this.richTextBox1.TabIndex = 5;
+            this.richTextBox1.Text = "";
             // 
             // label4
             // 
@@ -131,36 +171,42 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Sujet";
             // 
-            // richTextBox1
+            // label3
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(118, 178);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(196, 91);
-            this.richTextBox1.TabIndex = 5;
-            this.richTextBox1.Text = "";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(10, 143);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(42, 18);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Date";
             // 
-            // textBox3
+            // label1
             // 
-            this.textBox3.Location = new System.Drawing.Point(193, 136);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 25);
-            this.textBox3.TabIndex = 7;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(10, 74);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 18);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Produit";
             // 
-            // comboBox1
+            // label2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(193, 66);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 26);
-            this.comboBox1.TabIndex = 8;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(10, 107);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(103, 18);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Departement";
             // 
-            // comboBox2
+            // button1
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(193, 104);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 26);
-            this.comboBox2.TabIndex = 3;
+            this.button1.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(12, 279);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 36);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Envoyer";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -178,16 +224,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 10;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 279);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 36);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Envoyer";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // pictureBox2
             // 
@@ -231,16 +267,6 @@
             this.label8.TabIndex = 14;
             this.label8.Text = "Votre satisfaction restera";
             // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(118, 279);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 36);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Consulter";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -254,6 +280,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.DarkRed;
             this.button4.Location = new System.Drawing.Point(697, 434);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
@@ -285,6 +312,13 @@
             this.groupBox1.Text = "Annuler une réclamation";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter_1);
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(164, 37);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 25);
+            this.textBox2.TabIndex = 20;
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -294,39 +328,6 @@
             this.label9.Size = new System.Drawing.Size(150, 15);
             this.label9.TabIndex = 19;
             this.label9.Text = "Num de la réclamation";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(164, 37);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 25);
-            this.textBox2.TabIndex = 20;
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(219, 279);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(95, 36);
-            this.button6.TabIndex = 20;
-            this.button6.Text = "Modifier";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(9, 36);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(176, 18);
-            this.label10.TabIndex = 21;
-            this.label10.Text = "Num de la réclamation";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(193, 29);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(121, 25);
-            this.textBox4.TabIndex = 22;
             // 
             // relamation_client
             // 
