@@ -26,7 +26,7 @@ namespace BEL
 
         public static bool Delete_reclamation(int num)
         {
-            string requete = String.Format("delete from produit where num={0};", num);
+            string requete = String.Format("delete from reclamation where num={0};", num);
             return utils.miseajour(requete);
         }
 
