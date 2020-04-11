@@ -40,7 +40,6 @@ namespace BEL
                 while (rd.Read())
                 {
                     c.ID = rd.GetInt32(0);
-
                     c.prenom = rd.GetString(1);
                     c.nom = rd.GetString(2);
                     c.tel = rd.GetInt32(3);

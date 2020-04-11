@@ -8,11 +8,11 @@ namespace BEL
 {
     public class client
     {
-        public int ID { get; set; }
-        public string nom { get; set; }
-        public string prenom { get; set; }
-        public int tel { get; set; }
-        public string adresse_mail { get; set; }
+        public int ID_cl { get; set; }
+        public string nom_cl { get; set; }
+        public string prenom_cl { get; set; }
+        public int tel_cl { get; set; }
+        public string adresse_mail_cl { get; set; }
 
     }
 }
