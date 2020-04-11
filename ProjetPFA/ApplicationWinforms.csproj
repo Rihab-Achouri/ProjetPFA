@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,8 +65,26 @@
     <Compile Include="Gérer personnels.Designer.cs">
       <DependentUpon>Gérer personnels.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gérer_clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gérer_clients.Designer.cs">
+      <DependentUpon>Gérer_clients.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reclamation_personnel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reclamation_personnel.Designer.cs">
+      <DependentUpon>reclamation_personnel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="relamation_client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="relamation_client.Designer.cs">
+      <DependentUpon>relamation_client.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Accueil.resx">
       <DependentUpon>Accueil.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gérer personnels.resx">
       <DependentUpon>Gérer personnels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gérer_clients.resx">
+      <DependentUpon>Gérer_clients.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,6 +106,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="relamation_client.resx">
+      <DependentUpon>relamation_client.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
