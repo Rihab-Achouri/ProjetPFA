@@ -20,7 +20,7 @@ namespace BEL
         public static bool Update_client(int id, string nom, string prenom, int tel, string adresse_mail)
         {
             string requete = String.Format("update client set nom_cl='{0}', prenom_cl='{1}'," +
-                " tel_cl='{2}', adresse_mail_cl='{3}' where ID_cl={5};", nom, prenom, tel, adresse_mail, id);
+                " tel_cl='{2}', adresse_mail_cl='{3}' where ID_cl={4};", nom, prenom, tel, adresse_mail, id);
             return utils.miseajour(requete);
         }
 
@@ -40,12 +40,10 @@ namespace BEL
                 while (rd.Read())
                 {
                     c.ID_cl = rd.GetInt32(0);
-
                     c.prenom_cl = rd.GetString(1);
                     c.nom_cl = rd.GetString(2);
                     c.tel_cl = rd.GetInt32(3);
                     c.adresse_mail_cl = rd.GetString(4);
-              
                 }
 
             }

@@ -20,7 +20,7 @@ namespace BEL
         public static bool Update_produitl(int RF, int qt1, int qt2, DateTime date_de_vente)
         {
             string requete = String.Format("update produit set qt_stock='{0}', qt_vendue='{1}'," +
-                " date_de_vente='{2}' where ID={5};", qt1, qt2, date_de_vente, RF);
+                " date_de_vente='{2}' where ID={3};", qt1, qt2, date_de_vente, RF);
             return utils.miseajour(requete);
         }
 

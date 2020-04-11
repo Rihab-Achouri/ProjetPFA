@@ -10,39 +10,43 @@ namespace BEL
     class reclamationDAO
     {
 
-        public static bool Insert_produit(int RF, int qt1, int qt2, DateTime date_de_vente)
+        public static bool Insert_reclamation(int num, string sujet, string departement, int id_client, int ref_prod, string decision, DateTime date_ouverture, DateTime date_cloture)
         {
-            string requete = String.Format("insert into reclamation (reference, qt_stock,qt_vendue,date_de_vente)" +
-                " values ('{0}','{1}','{2}','{3}','{4}',{5}');", RF, qt1, qt2, date_de_vente);
+            string requete = String.Format("insert into reclamation (num, sujet, departement, client, prod, decision, date_ouverture, date_cloture)" +
+                " values ('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}');", num, sujet, departement, id_client, ref_prod, decision, date_ouverture, date_cloture);
             return utils.miseajour(requete);
         }
 
-        public static bool Update_reclamation(int RF, int qt1, int qt2, DateTime date_de_vente)
+        public static bool Update_reclamation(int num, string sujet, string departement, int id_client, int ref_prod, string decision, DateTime date_ouverture, DateTime date_cloture)
         {
-            string requete = String.Format("update reclamation set qt_stock='{0}', qt_vendue='{1}'," +
-                " date_de_vente='{2}' where ID={5};", qt1, qt2, date_de_vente, RF);
+            string requete = String.Format("update reclamation set sujet='{0}', departemnt='{1}', decision='{2}', date_ouverture='{3}'," +
+                " date_cloture='{4}' where num={5};", sujet, departement, decision, date_ouverture, date_cloture, num);
             return utils.miseajour(requete);
         }
 
-        public static bool Delete_reclamation(int RF)
+        public static bool Delete_reclamation(int num)
         {
-            string requete = String.Format("delete from produit where reference={0};", RF);
+            string requete = String.Format("delete from produit where num={0};", num);
             return utils.miseajour(requete);
         }
 
-        public static produit Get_produit_reference(int RF)
+        public static reclamation Get_reclamation_num(int num)
         {
-            string requete = String.Format("select * from produit where reference={0};", RF);
+            string requete = String.Format("select * from reclamation where num={0};", num);
             OleDbDataReader rd = utils.lire(requete);
-            produit c = new produit();
+            reclamation c = new reclamation();
             if (rd.HasRows)
             {
                 while (rd.Read())
                 {
-                    c.reference = rd.GetInt32(0);
-                    c.qt_stock = rd.GetInt32(1);
-                    c.qt_vendue = rd.GetInt32(2);
-                    c.date_de_vente = rd.GetDateTime(3);
+                    c.num = rd.GetInt32(0);
+                    c.sujet = rd.GetString(1);
+                    c.departement = rd.GetString(2);
+                    c.id_client = rd.GetInt32(3);
+                    c.ref_prod = rd.GetInt32(4);
+                    c.decision = rd.GetString(5);
+                    c.date_ouverture = rd.GetDateTime(6);
+                    c.date_ouverture = rd.GetDateTime(7);
                 }
 
             }
@@ -50,20 +54,24 @@ namespace BEL
             return c;
         }
 
-        public static List<produit> Get_produit()
+        public static List<reclamation> Get_reclamation()
         {
-            string requete = String.Format("select * from produit;");
+            string requete = String.Format("select * from reclamation;");
             OleDbDataReader rd = utils.lire(requete);
-            List<produit> L = new List<produit>();
-            produit c;
+            List<reclamation> L = new List<reclamation>();
+            reclamation c;
             while (rd.Read())
             {
-                c = new produit
+                c = new reclamation
                 {
-                    reference = rd.GetInt32(0),
-                    qt_stock = rd.GetInt32(1),
-                    qt_vendue = rd.GetInt32(2),
-                    date_de_vente = rd.GetDateTime(3),
+                    num = rd.GetInt32(0),
+                    sujet = rd.GetString(1),
+                    departement = rd.GetString(2),
+                    id_client = rd.GetInt32(3),
+                    ref_prod = rd.GetInt32(4),
+                    decision = rd.GetString(5),
+                    date_ouverture = rd.GetDateTime(6),
+                    date_cloture = rd.GetDateTime(7),
                 };
                 L.Add(c);
             }
