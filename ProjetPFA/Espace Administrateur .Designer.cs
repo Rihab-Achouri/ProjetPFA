@@ -219,7 +219,7 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.pictureBox3);
             this.Name = "Espace_Administrateur";
-            this.Text = "Espace_Administrateur";
+            this.Text = "Espace Administrateur";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

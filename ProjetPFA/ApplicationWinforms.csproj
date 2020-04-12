@@ -72,17 +72,17 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gérer compte client .cs">
+    <Compile Include="Information client .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gérer compte client .Designer.cs">
-      <DependentUpon>Gérer compte client .cs</DependentUpon>
+    <Compile Include="Information client .Designer.cs">
+      <DependentUpon>Information client .cs</DependentUpon>
     </Compile>
-    <Compile Include="Gérer compte personnel .cs">
+    <Compile Include="Informations personnel .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gérer compte personnel .Designer.cs">
-      <DependentUpon>Gérer compte personnel .cs</DependentUpon>
+    <Compile Include="Informations personnel .Designer.cs">
+      <DependentUpon>Informations personnel .cs</DependentUpon>
     </Compile>
     <Compile Include="Gérer personnels.cs">
       <SubType>Form</SubType>
@@ -121,6 +121,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Information client .resx">
+      <DependentUpon>Information client .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informations personnel .resx">
+      <DependentUpon>Informations personnel .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gérer personnels.resx">
       <DependentUpon>Gérer personnels.cs</DependentUpon>
