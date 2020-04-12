@@ -13,6 +13,6 @@ namespace BEL
         public string prenom { get; set; }
         public int tel { get; set; }
         public string adresse_mail { get; set; }
-        public string post { get; set; }
+        public string poste { get; set; }
     }
 }

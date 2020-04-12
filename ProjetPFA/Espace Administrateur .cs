@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjetPFA
 {
-    public partial class Accueil : Form
+    public partial class Espace_Administrateur : Form
     {
-        public Accueil()
+        public Espace_Administrateur()
         {
             InitializeComponent();
         }

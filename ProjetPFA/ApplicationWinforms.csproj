@@ -47,17 +47,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Accueil.cs">
+    <Compile Include="Espace Administrateur .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Accueil.Designer.cs">
-      <DependentUpon>Accueil.cs</DependentUpon>
+    <Compile Include="Espace Administrateur .Designer.cs">
+      <DependentUpon>Espace Administrateur .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Espace Client .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Espace Client .Designer.cs">
+      <DependentUpon>Espace Client .cs</DependentUpon>
     </Compile>
     <Compile Include="Authentification.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Authentification.Designer.cs">
       <DependentUpon>Authentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gérer compte client .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gérer compte client .Designer.cs">
+      <DependentUpon>Gérer compte client .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gérer compte personnel .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gérer compte personnel .Designer.cs">
+      <DependentUpon>Gérer compte personnel .cs</DependentUpon>
     </Compile>
     <Compile Include="Gérer personnels.cs">
       <SubType>Form</SubType>
@@ -85,11 +109,17 @@
     <Compile Include="relamation_client.Designer.cs">
       <DependentUpon>relamation_client.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Accueil.resx">
-      <DependentUpon>Accueil.cs</DependentUpon>
+    <EmbeddedResource Include="Espace Administrateur .resx">
+      <DependentUpon>Espace Administrateur .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Espace Client .resx">
+      <DependentUpon>Espace Client .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Authentification.resx">
       <DependentUpon>Authentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gérer personnels.resx">
       <DependentUpon>Gérer personnels.cs</DependentUpon>
