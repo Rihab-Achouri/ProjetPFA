@@ -61,7 +61,6 @@
             this.button8 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -81,7 +80,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button9);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -271,7 +269,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(463, 341);
+            this.button3.Location = new System.Drawing.Point(450, 379);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(102, 32);
             this.button3.TabIndex = 21;
@@ -281,11 +279,11 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(463, 379);
+            this.button4.Location = new System.Drawing.Point(450, 341);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(102, 32);
             this.button4.TabIndex = 22;
-            this.button4.Text = "button4";
+            this.button4.Text = "Ajouter";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -337,6 +335,7 @@
             // 
             // button7
             // 
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.DarkRed;
             this.button7.Location = new System.Drawing.Point(173, 459);
@@ -348,6 +347,7 @@
             // 
             // button8
             // 
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.Location = new System.Drawing.Point(12, 459);
             this.button8.Name = "button8";
@@ -359,35 +359,24 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Lucida Handwriting", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Lucida Handwriting", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label9.Location = new System.Drawing.Point(311, 19);
+            this.label9.Location = new System.Drawing.Point(256, 16);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(398, 20);
+            this.label9.Size = new System.Drawing.Size(443, 23);
             this.label9.TabIndex = 30;
             this.label9.Text = "\"Vos clients les plus mécontents sont votre";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Lucida Handwriting", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Lucida Handwriting", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label11.Location = new System.Drawing.Point(447, 42);
+            this.label11.Location = new System.Drawing.Point(383, 42);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(327, 20);
+            this.label11.Size = new System.Drawing.Size(361, 23);
             this.label11.TabIndex = 32;
             this.label11.Text = "meilleure source d\'apprentissage\"";
-            // 
-            // button9
-            // 
-            this.button9.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.Black;
-            this.button9.Location = new System.Drawing.Point(18, 255);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(102, 32);
-            this.button9.TabIndex = 23;
-            this.button9.Text = "Valider ";
-            this.button9.UseVisualStyleBackColor = true;
             // 
             // reclamation_personnel
             // 
@@ -412,6 +401,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Name = "reclamation_personnel";
             this.Text = "reclamation_personnel";
+            this.Load += new System.EventHandler(this.reclamation_personnel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -458,6 +448,5 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button9;
     }
 }
