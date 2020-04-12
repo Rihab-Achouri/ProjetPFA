@@ -66,11 +66,23 @@
     <Compile Include="Authentification.Designer.cs">
       <DependentUpon>Authentification.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Espace Responsable Qualité .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Espace Responsable Qualité .Designer.cs">
+      <DependentUpon>Espace Responsable Qualité .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Espace Responsable Traitement .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Espace Responsable Traitement .Designer.cs">
+      <DependentUpon>Espace Responsable Traitement .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gérer missions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gérer missions.Designer.cs">
+      <DependentUpon>Gérer missions.cs</DependentUpon>
     </Compile>
     <Compile Include="Information client .cs">
       <SubType>Form</SubType>
@@ -98,11 +110,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="reclamation_personnel.cs">
+    <Compile Include="Traitement réclamation .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="reclamation_personnel.Designer.cs">
-      <DependentUpon>reclamation_personnel.cs</DependentUpon>
+    <Compile Include="Traitement réclamation .Designer.cs">
+      <DependentUpon>Traitement réclamation .cs</DependentUpon>
     </Compile>
     <Compile Include="relamation_client.cs">
       <SubType>Form</SubType>
@@ -119,8 +131,14 @@
     <EmbeddedResource Include="Authentification.resx">
       <DependentUpon>Authentification.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Espace Responsable Qualité .resx">
+      <DependentUpon>Espace Responsable Qualité .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Espace Responsable Traitement .resx">
+      <DependentUpon>Espace Responsable Traitement .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gérer missions.resx">
+      <DependentUpon>Gérer missions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Information client .resx">
       <DependentUpon>Information client .cs</DependentUpon>
@@ -143,8 +161,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="reclamation_personnel.resx">
-      <DependentUpon>reclamation_personnel.cs</DependentUpon>
+    <EmbeddedResource Include="Traitement réclamation .resx">
+      <DependentUpon>Traitement réclamation .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="relamation_client.resx">
       <DependentUpon>relamation_client.cs</DependentUpon>

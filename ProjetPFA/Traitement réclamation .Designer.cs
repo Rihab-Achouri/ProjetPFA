@@ -61,6 +61,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -80,6 +81,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button9);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -316,7 +318,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(605, 42);
+            this.pictureBox2.Location = new System.Drawing.Point(603, 42);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(363, 194);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -375,6 +377,17 @@
             this.label11.Size = new System.Drawing.Size(327, 20);
             this.label11.TabIndex = 32;
             this.label11.Text = "meilleure source d\'apprentissage\"";
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.Black;
+            this.button9.Location = new System.Drawing.Point(18, 255);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(102, 32);
+            this.button9.TabIndex = 23;
+            this.button9.Text = "Valider ";
+            this.button9.UseVisualStyleBackColor = true;
             // 
             // reclamation_personnel
             // 
@@ -445,5 +458,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button button9;
     }
 }
