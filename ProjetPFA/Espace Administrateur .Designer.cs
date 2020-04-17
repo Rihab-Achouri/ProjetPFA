@@ -71,6 +71,7 @@
             this.button6.Text = "Gestion des réclamations";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // button4
             // 

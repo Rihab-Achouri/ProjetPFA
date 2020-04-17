@@ -24,9 +24,7 @@ namespace ProjetPFA
 
         private void button6_Click(object sender, EventArgs e)
         {
-            reclamation_personnel f5 = new reclamation_personnel();
-            f5.ShowDialog();
-            this.Hide();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -60,6 +58,13 @@ namespace ProjetPFA
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            reclamation_personnel f5 = new reclamation_personnel();
+            f5.ShowDialog();
+            this.Hide();
         }
     }
 }
