@@ -61,6 +61,8 @@
             this.button8 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.vScrollBar2 = new System.Windows.Forms.VScrollBar();
+            this.vScrollBar3 = new System.Windows.Forms.VScrollBar();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -80,6 +82,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.vScrollBar2);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -200,6 +203,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.vScrollBar3);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.textBox6);
@@ -378,6 +382,20 @@
             this.label11.TabIndex = 32;
             this.label11.Text = "meilleure source d\'apprentissage\"";
             // 
+            // vScrollBar2
+            // 
+            this.vScrollBar2.Location = new System.Drawing.Point(248, 212);
+            this.vScrollBar2.Name = "vScrollBar2";
+            this.vScrollBar2.Size = new System.Drawing.Size(12, 93);
+            this.vScrollBar2.TabIndex = 33;
+            // 
+            // vScrollBar3
+            // 
+            this.vScrollBar3.Location = new System.Drawing.Point(200, 25);
+            this.vScrollBar3.Name = "vScrollBar3";
+            this.vScrollBar3.Size = new System.Drawing.Size(12, 93);
+            this.vScrollBar3.TabIndex = 34;
+            // 
             // reclamation_personnel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -448,5 +466,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.VScrollBar vScrollBar2;
+        private System.Windows.Forms.VScrollBar vScrollBar3;
     }
 }

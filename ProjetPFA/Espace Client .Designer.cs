@@ -71,6 +71,7 @@
             this.button3.Text = "Mes Suggestions ";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -94,6 +95,7 @@
             this.button6.Text = "Gestion des réclamations";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label1
             // 
@@ -128,6 +130,7 @@
             this.button1.TabIndex = 30;
             this.button1.Text = "Quiter";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button8
             // 
@@ -151,6 +154,7 @@
             this.button5.Text = "Numéros des réclamations";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // pictureBox2
             // 

@@ -65,7 +65,6 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Se connecter";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -76,7 +75,6 @@
             this.label1.Size = new System.Drawing.Size(46, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Login";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -136,7 +134,6 @@
             this.button2.TabIndex = 10;
             this.button2.Text = "Quiter";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox1
             // 

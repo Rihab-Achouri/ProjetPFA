@@ -78,6 +78,12 @@
     <Compile Include="Espace Responsable Traitement .Designer.cs">
       <DependentUpon>Espace Responsable Traitement .cs</DependentUpon>
     </Compile>
+    <Compile Include="suggestion_clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suggestion_clients.Designer.cs">
+      <DependentUpon>suggestion_clients.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gérer missions.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Espace Responsable Traitement .resx">
       <DependentUpon>Espace Responsable Traitement .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suggestion_clients.resx">
+      <DependentUpon>suggestion_clients.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gérer missions.resx">
       <DependentUpon>Gérer missions.cs</DependentUpon>

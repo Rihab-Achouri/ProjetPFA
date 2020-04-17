@@ -21,5 +21,45 @@ namespace ProjetPFA
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            reclamation_personnel f5 = new reclamation_personnel();
+            f5.ShowDialog();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Gérer_clients f4 = new Gérer_clients();
+            f4.ShowDialog();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Gérer_compte_personnel f3 = new Gérer_compte_personnel();
+            f3.ShowDialog();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Gérer_personnels f2 = new Gérer_personnels ();
+            f2.ShowDialog();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Authentification f1 = new Authentification();
+            f1.ShowDialog();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

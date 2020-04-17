@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace ProjetPFA
 {
-    public partial class Form3 : Form
+    public partial class suggestion_clients : Form
     {
-        public Form3()
+        public suggestion_clients()
         {
             InitializeComponent();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
