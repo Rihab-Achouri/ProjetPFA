@@ -11,9 +11,9 @@ using BEL;
 
 namespace ProjetPFA
 {
-    public partial class Form1 : Form
+    public partial class Information_client : Form
     {
-        public Form1()
+        public Information_client()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace ProjetPFA
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Accueil f1 = new Accueil();
+            Espace_Client f1 = new Espace_Client();
             f1.ShowDialog();
             this.Hide();
         }
@@ -37,7 +37,12 @@ namespace ProjetPFA
 
         private void button3_Click(object sender, EventArgs e)
         {
-            clientDAO.Update_client
+            clientDAO.Update_client;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

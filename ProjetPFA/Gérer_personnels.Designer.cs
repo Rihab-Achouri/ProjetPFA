@@ -238,6 +238,7 @@
             this.button5.TabIndex = 29;
             this.button5.Text = "Quiter";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -248,6 +249,7 @@
             this.button6.TabIndex = 30;
             this.button6.Text = "Retour";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // vScrollBar1
             // 

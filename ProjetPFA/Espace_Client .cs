@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjetPFA
 {
-    public partial class Accueil : Form
+    public partial class Espace_Client : Form
     {
-        public Accueil()
+        public Espace_Client()
         {
             InitializeComponent();
         }
@@ -46,7 +46,7 @@ namespace ProjetPFA
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form1 f2 = new Form1();
+            Information_client f2 = new Information_client();
             f2.ShowDialog();
             this.Hide();
         }
@@ -58,8 +58,8 @@ namespace ProjetPFA
 
         private void button6_Click(object sender, EventArgs e)
         {
-            relamation_client f1 = new relamation_client();
-            f1.ShowDialog();
+            relamation_client f3 = new relamation_client();
+            f3.ShowDialog();
             this.Hide();
         }
 

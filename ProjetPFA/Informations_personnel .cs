@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace ProjetPFA
 {
-    public partial class reclamation_personnel : Form
+    public partial class Information_personnel : Form
     {
-        public reclamation_personnel()
+        public Information_personnel()
         {
             InitializeComponent();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
-        private void reclamation_personnel_Load(object sender, EventArgs e)
+        private void button8_Click(object sender, EventArgs e)
         {
 
         }

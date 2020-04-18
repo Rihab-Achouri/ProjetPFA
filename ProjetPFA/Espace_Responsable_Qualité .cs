@@ -10,23 +10,23 @@ using System.Windows.Forms;
 
 namespace ProjetPFA
 {
-    public partial class Form3 : Form
+    public partial class Espace_Responsable_Qualité : Form
     {
-        public Form3()
+        public Espace_Responsable_Qualité()
         {
             InitializeComponent();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            reclamation_personnel f1 = new reclamation_personnel();
+            Traitement_personnel f1 = new Traitement_personnel();
             f1.ShowDialog();
             this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Gérer_compte_personnel f2 = new Gérer_compte_personnel();
+            Information_personnel f2 = new Information_personnel();
             f2.ShowDialog();
             this.Hide();
         }
@@ -41,6 +41,11 @@ namespace ProjetPFA
             Authentification f3 = new Authentification();
             f3.ShowDialog();
             this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

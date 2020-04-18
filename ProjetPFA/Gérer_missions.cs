@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjetPFA
 {
-    public partial class Form4 : Form
+    public partial class Gérer_mission : Form
     {
-        public Form4()
+        public Gérer_mission()
         {
             InitializeComponent();
         }

@@ -21,5 +21,17 @@ namespace ProjetPFA
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Espace_Administrateur f3 = new Espace_Administrateur();
+            f3.ShowDialog();
+            this.Hide();
+        }
     }
 }
