@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.OleDb;
+using BEL;
 
-namespace BEL
+namespace DAL
 {
     public class clientDAO
     {
