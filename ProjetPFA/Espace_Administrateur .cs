@@ -29,14 +29,14 @@ namespace ProjetPFA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Gérer_clients f4 = new Gérer_clients();
-            f4.ShowDialog();
+            Gérer_clients f1 = new Gérer_clients();
+            f1.ShowDialog();
             this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Gérer_compte_personnel f3 = new Gérer_compte_personnel();
+            Information_personnel f3 = new Information_personnel();
             f3.ShowDialog();
             this.Hide();
         }
@@ -50,8 +50,8 @@ namespace ProjetPFA
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Authentification f1 = new Authentification();
-            f1.ShowDialog();
+            Authentification f4 = new Authentification();
+            f4.ShowDialog();
             this.Hide();
         }
 
@@ -62,7 +62,7 @@ namespace ProjetPFA
 
         private void button6_Click_1(object sender, EventArgs e)
         {
-            reclamation_personnel f5 = new reclamation_personnel();
+            Traitement_personnel f5 = new Traitement_personnel();
             f5.ShowDialog();
             this.Hide();
         }

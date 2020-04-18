@@ -48,17 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Espace Administrateur .cs">
+    <Compile Include="Espace_Administrateur .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Espace Administrateur .Designer.cs">
-      <DependentUpon>Espace Administrateur .cs</DependentUpon>
+    <Compile Include="Espace_Administrateur .Designer.cs">
+      <DependentUpon>Espace_Administrateur .cs</DependentUpon>
     </Compile>
-    <Compile Include="Espace Client .cs">
+    <Compile Include="Espace_Client .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Espace Client .Designer.cs">
-      <DependentUpon>Espace Client .cs</DependentUpon>
+    <Compile Include="Espace_Client .Designer.cs">
+      <DependentUpon>Espace_Client .cs</DependentUpon>
     </Compile>
     <Compile Include="Authentification.cs">
       <SubType>Form</SubType>
@@ -66,17 +66,17 @@
     <Compile Include="Authentification.Designer.cs">
       <DependentUpon>Authentification.cs</DependentUpon>
     </Compile>
-    <Compile Include="Espace Responsable Qualité .cs">
+    <Compile Include="Espace_Responsable_Qualité .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Espace Responsable Qualité .Designer.cs">
-      <DependentUpon>Espace Responsable Qualité .cs</DependentUpon>
+    <Compile Include="Espace_Responsable_Qualité .Designer.cs">
+      <DependentUpon>Espace_Responsable_Qualité .cs</DependentUpon>
     </Compile>
-    <Compile Include="Espace Responsable Traitement .cs">
+    <Compile Include="Espace_Responsable_Traitement .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Espace Responsable Traitement .Designer.cs">
-      <DependentUpon>Espace Responsable Traitement .cs</DependentUpon>
+    <Compile Include="Espace_Responsable_Traitement .Designer.cs">
+      <DependentUpon>Espace_Responsable_Traitement .cs</DependentUpon>
     </Compile>
     <Compile Include="suggestion_clients.cs">
       <SubType>Form</SubType>
@@ -84,29 +84,29 @@
     <Compile Include="suggestion_clients.Designer.cs">
       <DependentUpon>suggestion_clients.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gérer missions.cs">
+    <Compile Include="Gérer_missions.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gérer missions.Designer.cs">
-      <DependentUpon>Gérer missions.cs</DependentUpon>
+    <Compile Include="Gérer_missions.Designer.cs">
+      <DependentUpon>Gérer_missions.cs</DependentUpon>
     </Compile>
-    <Compile Include="Information client .cs">
+    <Compile Include="Information_client .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Information client .Designer.cs">
-      <DependentUpon>Information client .cs</DependentUpon>
+    <Compile Include="Information_client .Designer.cs">
+      <DependentUpon>Information_client .cs</DependentUpon>
     </Compile>
-    <Compile Include="Informations personnel .cs">
+    <Compile Include="Informations_personnel .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Informations personnel .Designer.cs">
-      <DependentUpon>Informations personnel .cs</DependentUpon>
+    <Compile Include="Informations_personnel .Designer.cs">
+      <DependentUpon>Informations_personnel .cs</DependentUpon>
     </Compile>
-    <Compile Include="Gérer personnels.cs">
+    <Compile Include="Gérer_personnels.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gérer personnels.Designer.cs">
-      <DependentUpon>Gérer personnels.cs</DependentUpon>
+    <Compile Include="Gérer_personnels.Designer.cs">
+      <DependentUpon>Gérer_personnels.cs</DependentUpon>
     </Compile>
     <Compile Include="Gérer_clients.cs">
       <SubType>Form</SubType>
@@ -116,11 +116,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Traitement réclamation .cs">
+    <Compile Include="Traitement_réclamation .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Traitement réclamation .Designer.cs">
-      <DependentUpon>Traitement réclamation .cs</DependentUpon>
+    <Compile Include="Traitement_réclamation .Designer.cs">
+      <DependentUpon>Traitement_réclamation .cs</DependentUpon>
     </Compile>
     <Compile Include="relamation_client.cs">
       <SubType>Form</SubType>
@@ -128,35 +128,35 @@
     <Compile Include="relamation_client.Designer.cs">
       <DependentUpon>relamation_client.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Espace Administrateur .resx">
-      <DependentUpon>Espace Administrateur .cs</DependentUpon>
+    <EmbeddedResource Include="Espace_Administrateur .resx">
+      <DependentUpon>Espace_Administrateur .cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Espace Client .resx">
-      <DependentUpon>Espace Client .cs</DependentUpon>
+    <EmbeddedResource Include="Espace_Client .resx">
+      <DependentUpon>Espace_Client .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Authentification.resx">
       <DependentUpon>Authentification.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Espace Responsable Qualité .resx">
-      <DependentUpon>Espace Responsable Qualité .cs</DependentUpon>
+    <EmbeddedResource Include="Espace_Responsable_Qualité .resx">
+      <DependentUpon>Espace_Responsable_Qualité .cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Espace Responsable Traitement .resx">
-      <DependentUpon>Espace Responsable Traitement .cs</DependentUpon>
+    <EmbeddedResource Include="Espace_Responsable_Traitement .resx">
+      <DependentUpon>Espace_Responsable_Traitement .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="suggestion_clients.resx">
       <DependentUpon>suggestion_clients.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gérer missions.resx">
-      <DependentUpon>Gérer missions.cs</DependentUpon>
+    <EmbeddedResource Include="Gérer_missions.resx">
+      <DependentUpon>Gérer_missions.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Information client .resx">
-      <DependentUpon>Information client .cs</DependentUpon>
+    <EmbeddedResource Include="Information_client .resx">
+      <DependentUpon>Information_client .cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Informations personnel .resx">
-      <DependentUpon>Informations personnel .cs</DependentUpon>
+    <EmbeddedResource Include="Informations_personnel .resx">
+      <DependentUpon>Informations_personnel .cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gérer personnels.resx">
-      <DependentUpon>Gérer personnels.cs</DependentUpon>
+    <EmbeddedResource Include="Gérer_personnels.resx">
+      <DependentUpon>Gérer_personnels.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gérer_clients.resx">
       <DependentUpon>Gérer_clients.cs</DependentUpon>
@@ -170,8 +170,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Traitement réclamation .resx">
-      <DependentUpon>Traitement réclamation .cs</DependentUpon>
+    <EmbeddedResource Include="Traitement_réclamation .resx">
+      <DependentUpon>Traitement_réclamation .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="relamation_client.resx">
       <DependentUpon>relamation_client.cs</DependentUpon>

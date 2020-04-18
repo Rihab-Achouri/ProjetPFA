@@ -7,23 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BEL;
 
 namespace ProjetPFA
 {
-    public partial class Gérer_personnels : Form
+    public partial class Information_personnel : Form
     {
-        public Gérer_personnels()
+        public Information_personnel()
         {
             InitializeComponent();
         }
 
-        private void Gérer_personnels_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button8_Click(object sender, EventArgs e)
         {
 
         }

@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace ProjetPFA
 {
-    public partial class reclamation_personnel : Form
+    public partial class Gérer_mission : Form
     {
-        public reclamation_personnel()
+        public Gérer_mission()
         {
             InitializeComponent();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void reclamation_personnel_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

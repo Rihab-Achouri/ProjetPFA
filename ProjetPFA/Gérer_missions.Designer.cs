@@ -1,6 +1,6 @@
 ﻿namespace ProjetPFA
 {
-    partial class Form2
+    partial class Gérer_mission
     {
         /// <summary>
         /// Required designer variable.
@@ -30,12 +30,12 @@
         {
             this.SuspendLayout();
             // 
-            // Form2
+            // Gérer_mission
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form2";
+            this.Name = "Gérer_mission";
             this.Text = "Gérer missions";
             this.ResumeLayout(false);
 
