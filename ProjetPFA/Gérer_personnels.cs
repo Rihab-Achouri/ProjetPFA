@@ -10,27 +10,27 @@ using System.Windows.Forms;
 
 namespace ProjetPFA
 {
-    public partial class suggestion_clients : Form
+    public partial class Gérer_personnels : Form
     {
-        public suggestion_clients()
+        public Gérer_personnels()
         {
             InitializeComponent();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void Gérer_personnels_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
-            Espace_Client f1 = new Espace_Client();
-            f1.ShowDialog();
+            Espace_Administrateur f3 = new Espace_Administrateur();
+            f3.ShowDialog();
             this.Hide();
         }
     }

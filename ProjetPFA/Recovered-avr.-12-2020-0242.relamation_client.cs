@@ -10,28 +10,26 @@ using System.Windows.Forms;
 
 namespace ProjetPFA
 {
-    public partial class suggestion_clients : Form
+    public partial class relamation_client : Form
     {
-        public suggestion_clients()
+        public relamation_client()
         {
             InitializeComponent();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void groupBox1_Enter_1(object sender, EventArgs e)
         {
-            this.Close();
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Espace_Client f1 = new Espace_Client();
-            f1.ShowDialog();
-            this.Hide();
+
         }
     }
 }

@@ -10,31 +10,21 @@ using System.Windows.Forms;
 
 namespace ProjetPFA
 {
-    public partial class Authentification : Form
+    public partial class Information_personnel : Form
     {
-        public Authentification()
+        public Information_personnel()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button8_Click(object sender, EventArgs e)
         {
-            this.Close();
+
         }
     }
 }
