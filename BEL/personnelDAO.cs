@@ -7,7 +7,7 @@ using System.Data.OleDb;
 
 namespace BEL
 {
-    class personnelDAO
+    public class personnelDAO
     {
 
         public static bool Insert_personnel(int id, string nom, string prenom, int tel, string adresse_mail, string poste)

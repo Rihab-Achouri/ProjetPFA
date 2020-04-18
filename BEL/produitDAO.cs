@@ -7,7 +7,7 @@ using System.Data.OleDb;
 
 namespace BEL
 {
-    class produitDAO
+    public class produitDAO
     {
 
         public static bool Insert_produit(int RF, int qt1, int qt2,DateTime date_de_vente )

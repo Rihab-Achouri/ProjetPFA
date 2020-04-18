@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BEL;
 
 namespace ProjetPFA
 {
@@ -18,6 +19,11 @@ namespace ProjetPFA
         }
 
         private void Gérer_personnels_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
 
         }

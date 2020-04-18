@@ -7,7 +7,7 @@ using System.Data.OleDb;
 
 namespace BEL
 {
-    class clientDAO
+    public class clientDAO
     {
 
         public static bool Insert_clientl(int id, string nom, string prenom, int tel, string adresse_mail)

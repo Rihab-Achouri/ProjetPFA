@@ -7,7 +7,7 @@ using System.Data.OleDb;
 
 namespace BEL
 {
-    class reclamationDAO
+    public class reclamationDAO
     {
 
         public static bool Insert_reclamation_client(int num, string sujet, string departement, int id_client, int ref_prod, DateTime date_ouverture)
