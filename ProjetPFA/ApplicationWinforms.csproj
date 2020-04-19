@@ -116,6 +116,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="supp_traitementrec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supp_traitementrec.Designer.cs">
+      <DependentUpon>supp_traitementrec.cs</DependentUpon>
+    </Compile>
     <Compile Include="Traitement_réclamation .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +176,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="supp_traitementrec.resx">
+      <DependentUpon>supp_traitementrec.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Traitement_réclamation .resx">
       <DependentUpon>Traitement_réclamation .cs</DependentUpon>
     </EmbeddedResource>
