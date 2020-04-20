@@ -109,7 +109,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(12, 160);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(168, 20);
+            this.textBox1.Size = new System.Drawing.Size(170, 20);
             this.textBox1.TabIndex = 6;
             // 
             // label1
@@ -127,7 +127,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Calligraphy", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label2.Location = new System.Drawing.Point(200, 18);
+            this.label2.Location = new System.Drawing.Point(204, 16);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(418, 23);
             this.label2.TabIndex = 8;
@@ -138,7 +138,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(618, 330);
+            this.ClientSize = new System.Drawing.Size(622, 330);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -149,7 +149,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
             this.Name = "supp_traitementrec";
-            this.Text = "supp_traitementrec";
+            this.Text = "&";
             this.Load += new System.EventHandler(this.supp_traitementrec_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
