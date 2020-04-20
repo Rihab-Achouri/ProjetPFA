@@ -38,7 +38,9 @@ namespace ProjetPFA
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            Gérer_mission f5 = new Gérer_mission();
+            f5.ShowDialog();
+            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)

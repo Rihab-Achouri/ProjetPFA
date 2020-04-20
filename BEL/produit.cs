@@ -10,7 +10,6 @@ namespace BEL
     {
         public int reference { get; set; }
         public int qt_stock { get; set; }
-        public int qt_vendue { get; set; }
-        public DateTime date_de_vente { get; set; }
+        public int prix_unitaire { get; set; }
     }
 }

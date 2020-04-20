@@ -11,17 +11,17 @@ namespace DAL
     public class produitDAO
     {
 
-        public static bool Insert_produit(int RF, int qt1, int qt2,DateTime date_de_vente )
+        public static bool Insert_produit(int RF, int qt, int prix)
         {
-            string requete = String.Format("insert into produit (reference, qt_stock,qt_vendue,date_de_vente)" +
-                " values ('{0}','{1}','{2}','{3}','{4}',{5}');",RF, qt1 , qt2,date_de_vente);
+            string requete = String.Format("insert into produit (reference, qt_stock,prix_unitaire)" +
+                " values ('{0}','{1}','{2}');",RF, qt , prix);
             return utils.miseajour(requete);
         }
 
-        public static bool Update_produitl(int RF, int qt1, int qt2, DateTime date_de_vente)
+        public static bool Update_produitl(int RF, int qt, int prix)
         {
-            string requete = String.Format("update produit set qt_stock='{0}', qt_vendue='{1}'," +
-                " date_de_vente='{2}' where ID={3};", qt1, qt2, date_de_vente, RF);
+            string requete = String.Format("update produit set qt_stock='{0}', prix_unitaire='{1}'," +
+                " where reference={3};", qt, prix, RF);
             return utils.miseajour(requete);
         }
 
@@ -42,8 +42,8 @@ namespace DAL
                 {
                     c.reference = rd.GetInt32(0);
                     c.qt_stock = rd.GetInt32(1);
-                    c.qt_vendue = rd.GetInt32(2);
-                    c.date_de_vente = rd.GetDateTime(3);
+                    c.prix_unitaire = rd.GetInt32(2);
+                    
                 }
 
             }
@@ -63,8 +63,8 @@ namespace DAL
                 {
                     reference= rd.GetInt32(0),
                     qt_stock = rd.GetInt32(1),
-                    qt_vendue = rd.GetInt32(2),
-                    date_de_vente = rd.GetDateTime(3),
+                    prix_unitaire = rd.GetInt32(2),
+                    
                 };
                 L.Add(c);
             }
