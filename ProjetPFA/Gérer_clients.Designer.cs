@@ -180,6 +180,7 @@
             this.button1.TabIndex = 13;
             this.button1.Text = "Afficher la liste de tous les clients";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -190,6 +191,7 @@
             this.button2.TabIndex = 14;
             this.button2.Text = "Ajouter";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -211,6 +213,7 @@
             this.button4.TabIndex = 16;
             this.button4.Text = "Modifier";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -244,6 +247,7 @@
             this.button7.TabIndex = 19;
             this.button7.Text = "Rechercher";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label6
             // 

@@ -38,5 +38,17 @@ namespace ProjetPFA
             f1.ShowDialog();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            supp_traitementrec f5 = new supp_traitementrec();
+            f5.ShowDialog();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

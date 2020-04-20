@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
-    class reclamation
+    public class reclamation
     {
         public int num { get; set; }
         public string sujet { get; set; }

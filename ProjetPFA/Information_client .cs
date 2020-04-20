@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BEL;
+using DAL;
 
 namespace ProjetPFA
 {
@@ -37,12 +38,28 @@ namespace ProjetPFA
 
         private void button3_Click(object sender, EventArgs e)
         {
-            clientDAO.Update_client;
+            try
+            {
+                clientDAO.Update_client(int.Parse(textBox1.Text), textBox2.Text, textBox3.Text, int.Parse(textBox4.Text), textBox5.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox5.Text = "";
         }
     }
 }

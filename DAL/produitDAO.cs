@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.OleDb;
+using BEL;
 
-namespace BEL
+namespace DAL
 {
-    class produitDAO
+    public class produitDAO
     {
 
         public static bool Insert_produit(int RF, int qt1, int qt2,DateTime date_de_vente )

@@ -68,9 +68,9 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(196, 328);
+            this.richTextBox1.Location = new System.Drawing.Point(193, 328);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(157, 95);
+            this.richTextBox1.Size = new System.Drawing.Size(172, 95);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "";
             // 
@@ -88,11 +88,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Green;
-            this.label2.Location = new System.Drawing.Point(193, 306);
+            this.label2.Location = new System.Drawing.Point(190, 306);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 16);
+            this.label2.Size = new System.Drawing.Size(175, 18);
             this.label2.TabIndex = 4;
             this.label2.Text = "Ecrire votre suggestion";
             // 
@@ -110,7 +110,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(388, 306);
+            this.button1.Location = new System.Drawing.Point(384, 306);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(96, 32);
             this.button1.TabIndex = 6;
@@ -121,14 +121,14 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(15, 328);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 20);
+            this.textBox1.Size = new System.Drawing.Size(155, 20);
             this.textBox1.TabIndex = 8;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.DarkRed;
-            this.button2.Location = new System.Drawing.Point(490, 396);
+            this.button2.Location = new System.Drawing.Point(486, 396);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(96, 27);
             this.button2.TabIndex = 9;
@@ -139,7 +139,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(388, 344);
+            this.button3.Location = new System.Drawing.Point(384, 344);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(96, 32);
             this.button3.TabIndex = 10;
@@ -150,7 +150,7 @@
             // 
             this.button4.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.Location = new System.Drawing.Point(490, 363);
+            this.button4.Location = new System.Drawing.Point(486, 363);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(96, 27);
             this.button4.TabIndex = 11;
@@ -161,11 +161,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Green;
             this.label5.Location = new System.Drawing.Point(12, 306);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(142, 16);
+            this.label5.Size = new System.Drawing.Size(158, 18);
             this.label5.TabIndex = 12;
             this.label5.Text = "Entrer votre identité";
             // 

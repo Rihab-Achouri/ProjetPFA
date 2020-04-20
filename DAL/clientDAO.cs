@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.OleDb;
+using BEL;
 
-namespace BEL
+namespace DAL
 {
-    class clientDAO
+    public class clientDAO
     {
 
-        public static bool Insert_clientl(int id, string nom, string prenom, int tel, string adresse_mail)
+        public static bool Insert_client(int id, string nom, string prenom, int tel, string adresse_mail)
         {
             string requete = String.Format("insert into client (ID_cl, nom_cl,prenom_cl,tel, adresse_mail_cl)" +
                 " values ('{0}','{1}','{2}','{3}','{4}');", id, nom, prenom, tel, adresse_mail);

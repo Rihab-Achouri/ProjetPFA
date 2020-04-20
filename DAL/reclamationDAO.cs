@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.OleDb;
+using BEL;
 
-namespace BEL
+namespace DAL
 {
-    class reclamationDAO
+    public class reclamationDAO
     {
 
         public static bool Insert_reclamation_client(int num, string sujet, string departement, int id_client, int ref_prod, DateTime date_ouverture)

@@ -8,7 +8,7 @@ using System.IO;
 using System.Reflection;
 using System.Configuration;
 
-namespace BEL
+namespace DAL
 {
     public static class utils
     {

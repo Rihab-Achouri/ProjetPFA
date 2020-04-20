@@ -48,5 +48,7 @@ namespace ProjetPFA
             f1.ShowDialog();
             this.Hide();
         }
+
+       
     }
 }

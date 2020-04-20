@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.OleDb;
+using BEL;
 
-namespace BEL
+namespace DAL
 {
-    class personnelDAO
+    public class personnelDAO
     {
 
         public static bool Insert_personnel(int id, string nom, string prenom, int tel, string adresse_mail, string poste)
