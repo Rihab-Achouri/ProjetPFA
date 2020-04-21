@@ -78,5 +78,17 @@ namespace ProjetPFA
         {
             this.Close();
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            passer_une_commande f4 = new passer_une_commande();
+            f4.ShowDialog();
+            this.Hide();
+        }
     }
 }

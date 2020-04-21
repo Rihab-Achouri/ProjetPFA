@@ -72,6 +72,12 @@
     <Compile Include="Espace_Responsable_Qualité .Designer.cs">
       <DependentUpon>Espace_Responsable_Qualité .cs</DependentUpon>
     </Compile>
+    <Compile Include="Espace_Responsable_Traitement  - Copier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Espace_Responsable_Traitement  - Copier.Designer.cs">
+      <DependentUpon>Espace_Responsable_Traitement  - Copier.cs</DependentUpon>
+    </Compile>
     <Compile Include="Espace_Responsable_Traitement .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Espace_Responsable_Qualité .resx">
       <DependentUpon>Espace_Responsable_Qualité .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Espace_Responsable_Traitement  - Copier.resx">
+      <DependentUpon>Espace_Responsable_Traitement  - Copier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Espace_Responsable_Traitement .resx">
       <DependentUpon>Espace_Responsable_Traitement .cs</DependentUpon>
