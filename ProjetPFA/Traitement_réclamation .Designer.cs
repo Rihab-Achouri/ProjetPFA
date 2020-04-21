@@ -265,6 +265,7 @@
             this.button1.TabIndex = 15;
             this.button1.Text = "Rechercher";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -275,6 +276,7 @@
             this.button2.TabIndex = 20;
             this.button2.Text = "Modifier";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -296,6 +298,7 @@
             this.button4.TabIndex = 22;
             this.button4.Text = "Confirmer";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -344,6 +347,7 @@
             this.button6.TabIndex = 27;
             this.button6.Text = "Afficher la liste des réclamations non traitées";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -401,12 +405,13 @@
             this.button9.TabIndex = 33;
             this.button9.Text = "Afficher la liste des réclamations anullées";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // Traitement_personnel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(977, 523);
+            this.ClientSize = new System.Drawing.Size(977, 528);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label9);
