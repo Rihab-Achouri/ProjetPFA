@@ -294,7 +294,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(102, 32);
             this.button4.TabIndex = 22;
-            this.button4.Text = "Ajouter";
+            this.button4.Text = "Confirmer";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
