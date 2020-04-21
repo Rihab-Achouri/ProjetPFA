@@ -116,7 +116,6 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(121, 25);
             this.textBox4.TabIndex = 22;
-        
             // 
             // label10
             // 
@@ -136,6 +135,7 @@
             this.button6.TabIndex = 20;
             this.button6.Text = "Modifier";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // comboBox2
             // 
@@ -154,6 +154,7 @@
             this.button2.TabIndex = 15;
             this.button2.Text = "Consulter";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // richTextBox1
             // 
@@ -209,6 +210,7 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "Envoyer";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label5
             // 
@@ -301,6 +303,7 @@
             this.button5.TabIndex = 18;
             this.button5.Text = "Confirmer";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // groupBox1
             // 
