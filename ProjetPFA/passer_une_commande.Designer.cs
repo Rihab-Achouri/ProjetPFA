@@ -41,6 +41,7 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -48,7 +49,6 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -178,6 +178,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Passer une commande";
             // 
+            // button5
+            // 
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(136, 237);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(92, 29);
+            this.button5.TabIndex = 15;
+            this.button5.Text = "Confirmer";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -242,22 +252,12 @@
             // 
             this.button4.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.DarkRed;
-            this.button4.Location = new System.Drawing.Point(712, 404);
+            this.button4.Location = new System.Drawing.Point(712, 401);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(75, 26);
             this.button4.TabIndex = 17;
             this.button4.Text = "Quiter";
             this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(136, 237);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(92, 29);
-            this.button5.TabIndex = 15;
-            this.button5.Text = "Confirmer";
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
