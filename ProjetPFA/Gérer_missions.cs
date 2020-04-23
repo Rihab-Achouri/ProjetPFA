@@ -31,5 +31,33 @@ namespace ProjetPFA
         {
 
         }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Espace_Responsable_Traitement f3 = new Espace_Responsable_Traitement();
+            f3.ShowDialog();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
     }
 }

@@ -65,9 +65,9 @@
             this.label1.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(239, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 16);
+            this.label1.Size = new System.Drawing.Size(186, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Entrer votre identité svp";
+            this.label1.Text = "Entrer votre identifiant svp";
             // 
             // textBox1
             // 
