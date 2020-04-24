@@ -125,7 +125,7 @@
             // 
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(219, 279);
+            this.button6.Location = new System.Drawing.Point(220, 279);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(95, 36);
             this.button6.TabIndex = 20;

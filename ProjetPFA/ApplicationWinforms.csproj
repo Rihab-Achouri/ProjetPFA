@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accueil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accueil.Designer.cs">
+      <DependentUpon>Accueil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Espace_Administrateur .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     <Compile Include="relamation_client.Designer.cs">
       <DependentUpon>relamation_client.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Accueil.resx">
+      <DependentUpon>Accueil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Espace_Administrateur .resx">
       <DependentUpon>Espace_Administrateur .cs</DependentUpon>
     </EmbeddedResource>
