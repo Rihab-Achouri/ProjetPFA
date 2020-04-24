@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BEL;
+using DAL;
 
 namespace ProjetPFA
 {
@@ -51,11 +53,48 @@ namespace ProjetPFA
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                reclamationDAO.Insert_reclamation_client(richTextBox1.Text, comboBox2.Text, int.Parse(textBox1.Text), int.Parse(comboBox1.Text), DateTime.Parse(dateTimePicker1.Text));
+                string requete = String.Format("select max (num) from reclamation;");
+                MessageBox.Show("Le numéro de votre reclamation est:",requete );
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            if (textBox4.Text != "")
+                try
+                {
+                    reclamation p = reclamationDAO.Get_reclamation_num(int.Parse(textBox4.Text));
+                    textBox4.Text = p.num.ToString();
+                    richTextBox1.Text = p.sujet;
+                    comboBox1.Text = p.ref_prod.ToString();
+                    comboBox2.Text = p.departement;
+                    dateTimePicker1.Text = p.date_ouverture.ToString();
+                    List<reclamation> L = new List<reclamation>();
+                    L.Add(p);
+                    dataGridView1.DataSource = L;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            else if (textBox1.Text!="")
+                try
+                {
+                    List<reclamation> Listreclamation = reclamationDAO.Get_reclamation_id_client(int.Parse(textBox1.Text));
+                    dataGridView1.DataSource = Listreclamation;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            else MessageBox.Show("Si vous avez oublié le numéro de votre réclamation essayer avec votre identifiant");
 
         }
 

@@ -43,6 +43,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -76,7 +78,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(102, 323);
+            this.button4.Location = new System.Drawing.Point(71, 281);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(196, 68);
             this.button4.TabIndex = 15;
@@ -110,7 +112,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(324, 227);
+            this.button1.Location = new System.Drawing.Point(280, 193);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(196, 68);
             this.button1.TabIndex = 18;
@@ -122,7 +124,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(371, 355);
+            this.button2.Location = new System.Drawing.Point(325, 281);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(196, 68);
             this.button2.TabIndex = 19;
@@ -167,7 +169,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(240, 326);
+            this.pictureBox2.Location = new System.Drawing.Point(212, 288);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(55, 61);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -177,7 +179,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(508, 358);
+            this.pictureBox1.Location = new System.Drawing.Point(466, 287);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(55, 62);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -188,7 +190,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(456, 230);
+            this.pictureBox4.Location = new System.Drawing.Point(409, 197);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(55, 61);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -205,12 +207,36 @@
             this.pictureBox5.TabIndex = 40;
             this.pictureBox5.TabStop = false;
             // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(102, 360);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(196, 68);
+            this.button7.TabIndex = 41;
+            this.button7.Text = "Gérer produits";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(358, 360);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(196, 68);
+            this.button8.TabIndex = 42;
+            this.button8.Text = "Gestion des commandes";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.UseVisualStyleBackColor = true;
+            // 
             // Espace_Administrateur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox1);
@@ -254,5 +280,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
     }
 }

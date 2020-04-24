@@ -32,7 +32,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
@@ -56,10 +55,13 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -74,8 +76,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.comboBox1);
             this.groupBox2.Controls.Add(this.dateTimePicker1);
-            this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.button6);
@@ -103,13 +105,6 @@
             this.dateTimePicker1.TabIndex = 20;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(193, 67);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(121, 25);
-            this.textBox5.TabIndex = 23;
-            // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(193, 29);
@@ -128,6 +123,7 @@
             // 
             // button6
             // 
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(219, 279);
             this.button6.Name = "button6";
@@ -147,6 +143,7 @@
             // 
             // button2
             // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(118, 279);
             this.button2.Name = "button2";
@@ -203,6 +200,7 @@
             // 
             // button1
             // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(12, 279);
             this.button1.Name = "button1";
@@ -224,17 +222,17 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(448, 27);
+            this.textBox1.Location = new System.Drawing.Point(262, 54);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(150, 20);
             this.textBox1.TabIndex = 10;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(485, 124);
+            this.pictureBox2.Location = new System.Drawing.Point(673, 77);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(266, 136);
+            this.pictureBox2.Size = new System.Drawing.Size(294, 136);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
@@ -254,7 +252,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label7.Location = new System.Drawing.Point(443, 94);
+            this.label7.Location = new System.Drawing.Point(658, 47);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(288, 27);
             this.label7.TabIndex = 9;
@@ -265,7 +263,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label8.Location = new System.Drawing.Point(378, 67);
+            this.label8.Location = new System.Drawing.Point(499, 21);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(324, 27);
             this.label8.TabIndex = 14;
@@ -274,7 +272,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(685, 395);
+            this.button3.Location = new System.Drawing.Point(882, 396);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(85, 28);
             this.button3.TabIndex = 16;
@@ -286,7 +284,7 @@
             // 
             this.button4.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.DarkRed;
-            this.button4.Location = new System.Drawing.Point(685, 429);
+            this.button4.Location = new System.Drawing.Point(882, 430);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(85, 28);
             this.button4.TabIndex = 17;
@@ -296,8 +294,9 @@
             // 
             // button5
             // 
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(247, 68);
+            this.button5.Location = new System.Drawing.Point(169, 68);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(95, 36);
             this.button5.TabIndex = 18;
@@ -311,9 +310,9 @@
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(383, 272);
+            this.groupBox1.Location = new System.Drawing.Point(379, 113);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(348, 110);
+            this.groupBox1.Size = new System.Drawing.Size(275, 110);
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Annuler une réclamation";
@@ -336,11 +335,29 @@
             this.label9.TabIndex = 19;
             this.label9.Text = "Num de la réclamation";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(379, 262);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(479, 176);
+            this.dataGridView1.TabIndex = 20;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(193, 66);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 26);
+            this.comboBox1.TabIndex = 24;
+            // 
             // relamation_client
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(773, 460);
+            this.BackColor = System.Drawing.Color.Cornsilk;
+            this.ClientSize = new System.Drawing.Size(979, 460);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -360,6 +377,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -392,6 +410,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

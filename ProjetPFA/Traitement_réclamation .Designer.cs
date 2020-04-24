@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Traitement_personnel));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -43,6 +44,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.vScrollBar3 = new System.Windows.Forms.VScrollBar();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -65,8 +67,6 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -109,6 +109,14 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Réclamation arrivées";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Font = new System.Drawing.Font("Maiandra GD", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker2.Location = new System.Drawing.Point(151, 147);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(183, 22);
+            this.dateTimePicker2.TabIndex = 36;
             // 
             // label6
             // 
@@ -217,6 +225,13 @@
             this.groupBox2.Text = "Décision";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(83, 149);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(217, 23);
+            this.dateTimePicker1.TabIndex = 35;
+            // 
             // vScrollBar3
             // 
             this.vScrollBar3.Location = new System.Drawing.Point(302, 22);
@@ -300,7 +315,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(381, 135);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(582, 166);
+            this.dataGridView1.Size = new System.Drawing.Size(582, 177);
             this.dataGridView1.TabIndex = 24;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -308,7 +323,7 @@
             // 
             this.vScrollBar1.Location = new System.Drawing.Point(943, 135);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(20, 166);
+            this.vScrollBar1.Size = new System.Drawing.Size(20, 177);
             this.vScrollBar1.TabIndex = 25;
             // 
             // pictureBox2
@@ -324,7 +339,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(381, 307);
+            this.button6.Location = new System.Drawing.Point(381, 318);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(582, 28);
             this.button6.TabIndex = 27;
@@ -382,7 +397,7 @@
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(381, 341);
+            this.button9.Location = new System.Drawing.Point(381, 352);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(584, 28);
             this.button9.TabIndex = 33;
@@ -441,22 +456,7 @@
             this.groupBox3.Size = new System.Drawing.Size(446, 126);
             this.groupBox3.TabIndex = 35;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Supprimer une reéclamation";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(83, 149);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(217, 23);
-            this.dateTimePicker1.TabIndex = 35;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Maiandra GD", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(151, 147);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(183, 22);
-            this.dateTimePicker2.TabIndex = 36;
+            this.groupBox3.Text = "Supprimer une réclamation";
             // 
             // pictureBox3
             // 
