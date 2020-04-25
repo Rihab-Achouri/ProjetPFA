@@ -78,6 +78,12 @@
     <Compile Include="Espace_Responsable_Traitement .Designer.cs">
       <DependentUpon>Espace_Responsable_Traitement .cs</DependentUpon>
     </Compile>
+    <Compile Include="Fiche_Mission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fiche_Mission.Designer.cs">
+      <DependentUpon>Fiche_Mission.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nouveaux_Mission .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,17 +114,11 @@
     <Compile Include="Gérer_missions.Designer.cs">
       <DependentUpon>Gérer_missions.cs</DependentUpon>
     </Compile>
-    <Compile Include="Information_client .cs">
+    <Compile Include="Mes_Informations.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Information_client .Designer.cs">
-      <DependentUpon>Information_client .cs</DependentUpon>
-    </Compile>
-    <Compile Include="Informations_personnel .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Informations_personnel .Designer.cs">
-      <DependentUpon>Informations_personnel .cs</DependentUpon>
+    <Compile Include="Mes_Informations.Designer.cs">
+      <DependentUpon>Mes_Informations.cs</DependentUpon>
     </Compile>
     <Compile Include="Gérer_personnels.cs">
       <SubType>Form</SubType>
@@ -161,6 +161,9 @@
     <EmbeddedResource Include="Espace_Responsable_Traitement .resx">
       <DependentUpon>Espace_Responsable_Traitement .cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Fiche_Mission.resx">
+      <DependentUpon>Fiche_Mission.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gérer_produits.resx">
       <DependentUpon>Gérer_produits.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,11 +179,8 @@
     <EmbeddedResource Include="Gérer_missions.resx">
       <DependentUpon>Gérer_missions.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Information_client .resx">
-      <DependentUpon>Information_client .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Informations_personnel .resx">
-      <DependentUpon>Informations_personnel .cs</DependentUpon>
+    <EmbeddedResource Include="Mes_Informations.resx">
+      <DependentUpon>Mes_Informations.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gérer_personnels.resx">
       <DependentUpon>Gérer_personnels.cs</DependentUpon>

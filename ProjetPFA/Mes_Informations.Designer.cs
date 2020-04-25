@@ -49,6 +49,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -77,6 +79,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.textBox6);
@@ -168,6 +172,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 24);
             this.textBox3.TabIndex = 43;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label3
             // 
@@ -256,6 +261,27 @@
             this.pictureBox3.TabIndex = 49;
             this.pictureBox3.TabStop = false;
             // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(299, 40);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(116, 42);
+            this.button4.TabIndex = 48;
+            this.button4.Text = "Modifier";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(299, 136);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(116, 42);
+            this.button5.TabIndex = 49;
+            this.button5.Text = "Annuler ";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // Information_personnel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -268,7 +294,7 @@
             this.Controls.Add(this.button8);
             this.Controls.Add(this.pictureBox3);
             this.Name = "Information_personnel";
-            this.Text = "Informations personnel ";
+            this.Text = "Mes Informations ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -300,5 +326,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
     }
 }

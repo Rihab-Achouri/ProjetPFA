@@ -339,7 +339,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(745, 383);
+            this.button4.Location = new System.Drawing.Point(732, 365);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(228, 32);
             this.button4.TabIndex = 40;
