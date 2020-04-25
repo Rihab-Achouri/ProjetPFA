@@ -54,35 +54,11 @@
     <Compile Include="Accueil.Designer.cs">
       <DependentUpon>Accueil.cs</DependentUpon>
     </Compile>
-    <Compile Include="Espace_Administrateur .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Espace_Administrateur .Designer.cs">
-      <DependentUpon>Espace_Administrateur .cs</DependentUpon>
-    </Compile>
-    <Compile Include="Espace_Client .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Espace_Client .Designer.cs">
-      <DependentUpon>Espace_Client .cs</DependentUpon>
-    </Compile>
     <Compile Include="Authentification.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Authentification.Designer.cs">
       <DependentUpon>Authentification.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Espace_Responsable_Qualité .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Espace_Responsable_Qualité .Designer.cs">
-      <DependentUpon>Espace_Responsable_Qualité .cs</DependentUpon>
-    </Compile>
-    <Compile Include="Espace_Responsable_Traitement .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Espace_Responsable_Traitement .Designer.cs">
-      <DependentUpon>Espace_Responsable_Traitement .cs</DependentUpon>
     </Compile>
     <Compile Include="Nouveaux_Mission .cs">
       <SubType>Form</SubType>
@@ -126,17 +102,11 @@
     <Compile Include="Informations_personnel .Designer.cs">
       <DependentUpon>Informations_personnel .cs</DependentUpon>
     </Compile>
-    <Compile Include="Gérer_personnels.cs">
+    <Compile Include="Gérer_personnels_clients.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gérer_personnels.Designer.cs">
-      <DependentUpon>Gérer_personnels.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Gérer_clients.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Gérer_clients.Designer.cs">
-      <DependentUpon>Gérer_clients.cs</DependentUpon>
+    <Compile Include="Gérer_personnels_clients.Designer.cs">
+      <DependentUpon>Gérer_personnels_clients.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -155,20 +125,8 @@
     <EmbeddedResource Include="Accueil.resx">
       <DependentUpon>Accueil.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Espace_Administrateur .resx">
-      <DependentUpon>Espace_Administrateur .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Espace_Client .resx">
-      <DependentUpon>Espace_Client .cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Authentification.resx">
       <DependentUpon>Authentification.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Espace_Responsable_Qualité .resx">
-      <DependentUpon>Espace_Responsable_Qualité .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Espace_Responsable_Traitement .resx">
-      <DependentUpon>Espace_Responsable_Traitement .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gérer_produits.resx">
       <DependentUpon>Gérer_produits.cs</DependentUpon>
@@ -191,11 +149,8 @@
     <EmbeddedResource Include="Informations_personnel .resx">
       <DependentUpon>Informations_personnel .cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gérer_personnels.resx">
-      <DependentUpon>Gérer_personnels.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Gérer_clients.resx">
-      <DependentUpon>Gérer_clients.cs</DependentUpon>
+    <EmbeddedResource Include="Gérer_personnels_clients.resx">
+      <DependentUpon>Gérer_personnels_clients.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
