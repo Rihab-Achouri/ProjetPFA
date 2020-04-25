@@ -12,9 +12,9 @@ using DAL;
 
 namespace ProjetPFA
 {
-    public partial class Gérer_personnels : Form
+    public partial class Gérer_personnels_clients : Form
     {
-        public Gérer_personnels()
+        public Gérer_personnels_clients()
         {
             InitializeComponent();
         }
@@ -31,9 +31,7 @@ namespace ProjetPFA
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Espace_Administrateur f3 = new Espace_Administrateur();
-            f3.ShowDialog();
-            this.Hide();
+          
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -111,6 +109,11 @@ namespace ProjetPFA
         }
 
         private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }

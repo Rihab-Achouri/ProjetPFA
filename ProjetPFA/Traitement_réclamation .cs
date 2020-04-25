@@ -34,9 +34,7 @@ namespace ProjetPFA
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Espace_Responsable_Qualité f1 = new Espace_Responsable_Qualité();
-            f1.ShowDialog();
-            this.Hide();
+          
         }
 
         private void button3_Click(object sender, EventArgs e)
