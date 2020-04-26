@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
-    public class produit
+    public class Produit
     {
-        public int reference { get; set; }
-        public int qt_stock { get; set; }
-        public int prix_unitaire { get; set; }
+        public int Reference { get; set; }
+        public int Qt_stock { get; set; }
+        public int Prix_unitaire { get; set; }
     }
 }

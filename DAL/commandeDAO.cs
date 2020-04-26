@@ -8,7 +8,7 @@ using System.Data.OleDb;
 
 namespace DAL
 {
-    public class commandeDAO
+    public class CommandeDAO
     {
         public static bool passer_commande(int id, int reference_produit, int qt, int prix, DateTime date_1, DateTime date_2, DateTime date_3)
         {
@@ -31,23 +31,23 @@ namespace DAL
             return utils.miseajour(requete);
         }
 
-        public static commande Get_commande_ID(int rf)
+        public static Commande Get_commande_ID(int rf)
         {
             string requete = String.Format("select * from commande where num_commande={0};", rf);
             OleDbDataReader rd = utils.lire(requete);
-            commande c = new commande();
+            Commande c = new Commande();
             if (rd.HasRows)
             {
                 while (rd.Read())
                 {
-                    c.num_commande = rd.GetInt32(0);
+                    c.Num_commande = rd.GetInt32(0);
                     c.ID_cl = rd.GetInt32(1);
-                    c.reference_produit = rd.GetInt32(2);
-                    c.qt = rd.GetInt32(3);
-                    c.prix = rd.GetInt32(4);
-                    c.date_commande = rd.GetDateTime(5);
-                    c.date_livraison_réel = rd.GetDateTime(6);
-                    c.date_livraison_souhaité = rd.GetDateTime(7);
+                    c.Reference_produit = rd.GetInt32(2);
+                    c.Qt = rd.GetInt32(3);
+                    c.Prix = rd.GetInt32(4);
+                    c.Date_commande = rd.GetDateTime(5);
+                    c.Date_livraison_réel = rd.GetDateTime(6);
+                    c.Date_livraison_souhaité = rd.GetDateTime(7);
                 }
 
             }
@@ -55,24 +55,24 @@ namespace DAL
             return c;
         }
 
-        public static List<commande> Get_commande()
+        public static List<Commande> Get_commande()
         {
             string requete = String.Format("select * from commande;");
             OleDbDataReader rd = utils.lire(requete);
-            List<commande> L = new List<commande>();
-            commande c;
+            List<Commande> L = new List<Commande>();
+            Commande c;
             while (rd.Read())
             {
-                c = new commande
+                c = new Commande
                 {
-                    num_commande= rd.GetInt32(0),
+                    Num_commande= rd.GetInt32(0),
                     ID_cl = rd.GetInt32(1),
-                    reference_produit = rd.GetInt32(2),
-                    qt = rd.GetInt32(3),
-                    prix = rd.GetInt32(4),
-                    date_commande = rd.GetDateTime(5),
-                    date_livraison_réel = rd.GetDateTime(6),
-                    date_livraison_souhaité = rd.GetDateTime(7),
+                    Reference_produit = rd.GetInt32(2),
+                    Qt = rd.GetInt32(3),
+                    Prix = rd.GetInt32(4),
+                    Date_commande = rd.GetDateTime(5),
+                    Date_livraison_réel = rd.GetDateTime(6),
+                    Date_livraison_souhaité = rd.GetDateTime(7),
 
                 };
                 L.Add(c);

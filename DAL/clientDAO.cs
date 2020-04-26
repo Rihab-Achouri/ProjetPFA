@@ -8,7 +8,7 @@ using BEL;
 
 namespace DAL
 {
-    public class clientDAO
+    public class ClientDAO
     {
 
         public static bool Insert_client(int id, string nom, string prenom, int tel, string adresse_mail)
@@ -31,20 +31,20 @@ namespace DAL
             return utils.miseajour(requete);
         }
 
-        public static client Get_client_ID(int id)
+        public static Client Get_client_ID(int id)
         {
             string requete = String.Format("select * from client where ID_cl={0};", id);
             OleDbDataReader rd = utils.lire(requete);
-            client c = new client();
+            Client c = new Client();
             if (rd.HasRows)
             {
                 while (rd.Read())
                 {
                     c.ID_cl = rd.GetInt32(0);
-                    c.prenom_cl = rd.GetString(1);
-                    c.nom_cl = rd.GetString(2);
-                    c.tel_cl = rd.GetInt32(3);
-                    c.adresse_mail_cl = rd.GetString(4);
+                    c.Prenom_cl = rd.GetString(1);
+                    c.Nom_cl = rd.GetString(2);
+                    c.Tel_cl = rd.GetInt32(3);
+                    c.Adresse_mail_cl = rd.GetString(4);
                 }
 
             }
@@ -52,21 +52,21 @@ namespace DAL
             return c;
         }
 
-        public static List<client> Get_client()
+        public static List<Client> Get_client()
         {
             string requete = String.Format("select * from client;");
             OleDbDataReader rd = utils.lire(requete);
-            List<client> L = new List<client>();
-            client c;
+            List<Client> L = new List<Client>();
+            Client c;
             while (rd.Read())
             {
-                c = new client
+                c = new Client
                 {
                     ID_cl = rd.GetInt32(0),
-                    nom_cl = rd.GetString(1),
-                    prenom_cl = rd.GetString(2),
-                    tel_cl = rd.GetInt32(3),
-                    adresse_mail_cl = rd.GetString(4),
+                    Nom_cl = rd.GetString(1),
+                    Prenom_cl = rd.GetString(2),
+                    Tel_cl = rd.GetInt32(3),
+                    Adresse_mail_cl = rd.GetString(4),
                     
                 };
                 L.Add(c);

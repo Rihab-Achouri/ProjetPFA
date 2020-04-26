@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
-    public class reclamation
+    public class Reclamation
     {
-        public int num { get; set; }
-        public string sujet { get; set; }
-        public string departement { get; set; }
-        public int id_client { get; set; }
-        public int ref_prod { get; set; }
-        public string decision { get; set; }
-        public DateTime date_ouverture { get; set; }
-        public DateTime date_cloture { get; set; }
+        public int Num { get; set; }
+        public string Sujet { get; set; }
+        public string Departement { get; set; }
+        public int Id_client { get; set; }
+        public int Ref_prod { get; set; }
+        public string Decision { get; set; }
+        public DateTime Date_ouverture { get; set; }
+        public DateTime Date_cloture { get; set; }
+        public string Etat_reclamation { get; set; }
     }
 }

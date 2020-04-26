@@ -8,7 +8,7 @@ using BEL;
 
 namespace DAL
 {
-    public class produitDAO
+    public class ProduitDAO
     {
 
         public static bool Insert_produit(int RF, int qt, int prix)
@@ -31,18 +31,18 @@ namespace DAL
             return utils.miseajour(requete);
         }
 
-        public static produit Get_produit_reference(int RF)
+        public static Produit Get_produit_reference(int RF)
         {
             string requete = String.Format("select * from produit where reference={0};", RF);
             OleDbDataReader rd = utils.lire(requete);
-            produit c = new produit();
+            Produit c = new Produit();
             if (rd.HasRows)
             {
                 while (rd.Read())
                 {
-                    c.reference = rd.GetInt32(0);
-                    c.qt_stock = rd.GetInt32(1);
-                    c.prix_unitaire = rd.GetInt32(2);
+                    c.Reference = rd.GetInt32(0);
+                    c.Qt_stock = rd.GetInt32(1);
+                    c.Prix_unitaire = rd.GetInt32(2);
                     
                 }
 
@@ -51,19 +51,19 @@ namespace DAL
             return c;
         }
 
-        public static List<produit> Get_produit()
+        public static List<Produit> Get_produit()
         {
             string requete = String.Format("select * from produit;");
             OleDbDataReader rd = utils.lire(requete);
-            List<produit> L = new List<produit>();
-            produit c;
+            List<Produit> L = new List<Produit>();
+            Produit c;
             while (rd.Read())
             {
-                c = new produit
+                c = new Produit
                 {
-                    reference= rd.GetInt32(0),
-                    qt_stock = rd.GetInt32(1),
-                    prix_unitaire = rd.GetInt32(2),
+                    Reference= rd.GetInt32(0),
+                    Qt_stock = rd.GetInt32(1),
+                    Prix_unitaire = rd.GetInt32(2),
                     
                 };
                 L.Add(c);

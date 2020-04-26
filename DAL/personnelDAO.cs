@@ -8,7 +8,7 @@ using BEL;
 
 namespace DAL
 {
-    public class personnelDAO
+    public class PersonnelDAO
     {
 
         public static bool Insert_personnel(int id, string nom, string prenom, int tel, string adresse_mail, string poste)
@@ -31,21 +31,21 @@ namespace DAL
             return utils.miseajour(requete);
         }
 
-        public static personnel Get_personnel_ID(int id)
+        public static Personnel Get_personnel_ID(int id)
         {
             string requete = String.Format("select * from personnel where ID={0};", id);
             OleDbDataReader rd = utils.lire(requete);
-            personnel c = new personnel();
+            Personnel c = new Personnel();
             if (rd.HasRows)
             {
                 while (rd.Read())
                 {
                     c.ID = rd.GetInt32(0);
-                    c.prenom = rd.GetString(1);
-                    c.nom = rd.GetString(2);
-                    c.tel = rd.GetInt32(3);
-                    c.adresse_mail = rd.GetString(4);
-                    c.poste = rd.GetString(5);
+                    c.Prenom = rd.GetString(1);
+                    c.Nom = rd.GetString(2);
+                    c.Tel = rd.GetInt32(3);
+                    c.Adresse_mail = rd.GetString(4);
+                    c.Poste = rd.GetString(5);
                 }
 
             }
@@ -53,22 +53,22 @@ namespace DAL
             return c;
         }
 
-        public static List<personnel> Get_personnel()
+        public static List<Personnel> Get_personnel()
         {
             string requete = String.Format("select * from personnel;");
             OleDbDataReader rd = utils.lire(requete);
-            List<personnel> L = new List<personnel>();
-            personnel c;
+            List<Personnel> L = new List<Personnel>();
+            Personnel c;
             while (rd.Read())
             {
-                c = new personnel
+                c = new Personnel
                 {
                     ID = rd.GetInt32(0),
-                    nom = rd.GetString(1),
-                    prenom = rd.GetString(2),
-                    tel = rd.GetInt32(3),
-                    adresse_mail = rd.GetString(4),
-                    poste = rd.GetString(5),
+                    Nom = rd.GetString(1),
+                    Prenom = rd.GetString(2),
+                    Tel = rd.GetInt32(3),
+                    Adresse_mail = rd.GetString(4),
+                    Poste = rd.GetString(5),
                 };
                 L.Add(c);
             }

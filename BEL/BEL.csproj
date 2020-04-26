@@ -66,17 +66,17 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="commande.cs" />
-    <Compile Include="reclamation.cs" />
-    <Compile Include="client.cs" />
+    <Compile Include="Commande.cs" />
+    <Compile Include="Reclamation.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="personnel.cs" />
-    <Compile Include="produit.cs" />
+    <Compile Include="Personnel.cs" />
+    <Compile Include="Produit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

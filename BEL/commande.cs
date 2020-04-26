@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
-    public class commande
+    public class Commande
     {
-        public int num_commande { get; set; }
+        public int Num_commande { get; set; }
         public int ID_cl { get; set; }
-        public int reference_produit { get; set; }
-        public int qt { get; set; }
-        public int prix { get; set; }
-        public DateTime date_commande { get; set; }
-        public DateTime date_livraison_réel { get; set; }
-        public DateTime date_livraison_souhaité { get; set; }
+        public int Reference_produit { get; set; }
+        public int Qt { get; set; }
+        public int Prix { get; set; }
+        public DateTime Date_commande { get; set; }
+        public DateTime Date_livraison_réel { get; set; }
+        public DateTime Date_livraison_souhaité { get; set; }
     }
 }

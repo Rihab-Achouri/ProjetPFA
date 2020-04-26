@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BEL;
+using DAL;
 
 namespace ProjetPFA
 {
@@ -59,7 +61,15 @@ namespace ProjetPFA
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                ReclamationDAO.Insert_decision(richTextBox2.Text, int.Parse (textBox1.Text) , DateTime.Parse(dateTimePicker1.Text), comboBox1.Text);
+                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)

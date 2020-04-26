@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
-    public class client
+    public class Client
     {
         public int ID_cl { get; set; }
-        public string nom_cl { get; set; }
-        public string prenom_cl { get; set; }
-        public int tel_cl { get; set; }
-        public string adresse_mail_cl { get; set; }
+        public string Nom_cl { get; set; }
+        public string Prenom_cl { get; set; }
+        public int Tel_cl { get; set; }
+        public string Adresse_mail_cl { get; set; }
 
     }
 }

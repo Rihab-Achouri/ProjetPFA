@@ -90,18 +90,6 @@
     <Compile Include="Gérer_missions.Designer.cs">
       <DependentUpon>Gérer_missions.cs</DependentUpon>
     </Compile>
-    <Compile Include="Information_client .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Information_client .Designer.cs">
-      <DependentUpon>Information_client .cs</DependentUpon>
-    </Compile>
-    <Compile Include="Informations_personnel .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Informations_personnel .Designer.cs">
-      <DependentUpon>Informations_personnel .cs</DependentUpon>
-    </Compile>
     <Compile Include="Gérer_personnels_clients.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,12 +130,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gérer_missions.resx">
       <DependentUpon>Gérer_missions.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Information_client .resx">
-      <DependentUpon>Information_client .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Informations_personnel .resx">
-      <DependentUpon>Informations_personnel .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gérer_personnels_clients.resx">
       <DependentUpon>Gérer_personnels_clients.cs</DependentUpon>

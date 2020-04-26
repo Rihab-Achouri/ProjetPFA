@@ -58,10 +58,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="commandeDAO.cs" />
-    <Compile Include="personnelDAO.cs" />
-    <Compile Include="produitDAO.cs" />
-    <Compile Include="reclamationDAO.cs" />
+    <Compile Include="CommandeDAO.cs" />
+    <Compile Include="PersonnelDAO.cs" />
+    <Compile Include="ProduitDAO.cs" />
+    <Compile Include="ReclamationDAO.cs" />
     <Compile Include="utils.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -71,7 +71,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="clientDAO.cs" />
+    <Compile Include="ClientDAO.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

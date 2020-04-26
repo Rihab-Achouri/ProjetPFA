@@ -38,13 +38,13 @@ namespace ProjetPFA
         {
             try
             {
-                personnel p = personnelDAO.Get_personnel_ID(int.Parse(textBox1.Text));
-                textBox2.Text = p.nom;
-                textBox3.Text = p.prenom;
-                textBox4.Text = p.tel.ToString();
-                textBox5.Text = p.adresse_mail;
-                textBox6.Text = p.poste;
-                List<personnel> L = new List<personnel>();
+                Personnel p = PersonnelDAO.Get_personnel_ID(int.Parse(textBox1.Text));
+                textBox2.Text = p.Nom;
+                textBox3.Text = p.Prenom;
+                textBox4.Text = p.Tel.ToString();
+                textBox5.Text = p.Adresse_mail;
+                textBox6.Text = p.Poste;
+                List<Personnel> L = new List<Personnel>();
                 L.Add(p);
                 dataGridView1.DataSource = L;
             }
@@ -58,7 +58,7 @@ namespace ProjetPFA
         {
             try
             {
-                personnelDAO.Update_personnel(int.Parse(textBox1.Text), textBox2.Text, textBox3.Text, int.Parse(textBox4.Text), textBox5.Text, textBox6.Text);
+                PersonnelDAO.Update_personnel(int.Parse(textBox1.Text), textBox2.Text, textBox3.Text, int.Parse(textBox4.Text), textBox5.Text, textBox6.Text);
             }
             catch (Exception ex)
             {
@@ -70,7 +70,7 @@ namespace ProjetPFA
         {
             try
             {
-                personnelDAO.Delete_personnel(int.Parse(textBox7.Text));
+                PersonnelDAO.Delete_personnel(int.Parse(textBox7.Text));
             }
             catch (Exception ex)
             {
@@ -82,7 +82,7 @@ namespace ProjetPFA
         {
             try
             {
-                List<personnel> Listpersonnels = personnelDAO.Get_personnel();
+                List<Personnel> Listpersonnels = PersonnelDAO.Get_personnel();
                 dataGridView1.DataSource = Listpersonnels;
             }
             catch (Exception ex)
@@ -100,7 +100,7 @@ namespace ProjetPFA
         {
             try
             {
-                personnelDAO.Insert_personnel(int.Parse(textBox1.Text), textBox2.Text, textBox3.Text, int.Parse(textBox4.Text), textBox5.Text, textBox6.Text);
+                PersonnelDAO.Insert_personnel(int.Parse(textBox1.Text), textBox2.Text, textBox3.Text, int.Parse(textBox4.Text), textBox5.Text, textBox6.Text);
             }
             catch (Exception ex)
             {
