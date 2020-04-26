@@ -251,9 +251,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(673, 77);
+            this.pictureBox2.Location = new System.Drawing.Point(684, 77);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(294, 136);
+            this.pictureBox2.Size = new System.Drawing.Size(283, 136);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
@@ -273,7 +273,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label7.Location = new System.Drawing.Point(658, 47);
+            this.label7.Location = new System.Drawing.Point(679, 47);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(288, 27);
             this.label7.TabIndex = 9;
@@ -317,7 +317,7 @@
             // 
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(169, 68);
+            this.button5.Location = new System.Drawing.Point(198, 68);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(95, 36);
             this.button5.TabIndex = 18;
@@ -333,7 +333,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(379, 113);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(275, 110);
+            this.groupBox1.Size = new System.Drawing.Size(299, 110);
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Annuler une réclamation";
@@ -343,7 +343,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(164, 37);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 25);
+            this.textBox2.Size = new System.Drawing.Size(129, 25);
             this.textBox2.TabIndex = 20;
             // 
             // label9

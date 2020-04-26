@@ -32,6 +32,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -43,8 +44,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.vScrollBar3 = new System.Windows.Forms.VScrollBar();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
@@ -67,9 +69,8 @@
             this.button11 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -91,6 +92,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.dateTimePicker2);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
@@ -107,7 +110,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Red;
             this.groupBox1.Location = new System.Drawing.Point(12, 97);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(343, 268);
+            this.groupBox1.Size = new System.Drawing.Size(343, 283);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Réclamation arrivées";
@@ -119,6 +122,15 @@
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(183, 22);
             this.dateTimePicker2.TabIndex = 36;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(15, 207);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(39, 16);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Sujet";
             // 
             // label5
             // 
@@ -140,9 +152,9 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(83, 177);
+            this.richTextBox1.Location = new System.Drawing.Point(94, 204);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(251, 84);
+            this.richTextBox1.Size = new System.Drawing.Size(240, 73);
             this.richTextBox1.TabIndex = 8;
             this.richTextBox1.Text = "";
             // 
@@ -206,13 +218,12 @@
             this.groupBox2.Controls.Add(this.comboBox1);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.dateTimePicker1);
-            this.groupBox2.Controls.Add(this.vScrollBar3);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.richTextBox2);
             this.groupBox2.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.MediumBlue;
-            this.groupBox2.Location = new System.Drawing.Point(12, 371);
+            this.groupBox2.Location = new System.Drawing.Point(12, 386);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(343, 187);
             this.groupBox2.TabIndex = 3;
@@ -220,19 +231,34 @@
             this.groupBox2.Text = "Décision";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Réclamation en attente",
+            "Réclamation validée",
+            "Réclamation annulée"});
+            this.comboBox1.Location = new System.Drawing.Point(94, 160);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(240, 24);
+            this.comboBox1.TabIndex = 37;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(15, 168);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(33, 16);
+            this.label12.TabIndex = 36;
+            this.label12.Text = "Etat";
+            // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(83, 127);
+            this.dateTimePicker1.Location = new System.Drawing.Point(94, 127);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(217, 23);
+            this.dateTimePicker1.Size = new System.Drawing.Size(240, 23);
             this.dateTimePicker1.TabIndex = 35;
-            // 
-            // vScrollBar3
-            // 
-            this.vScrollBar3.Location = new System.Drawing.Point(302, 22);
-            this.vScrollBar3.Name = "vScrollBar3";
-            this.vScrollBar3.Size = new System.Drawing.Size(21, 95);
-            this.vScrollBar3.TabIndex = 34;
             // 
             // label8
             // 
@@ -254,7 +280,7 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(83, 22);
+            this.richTextBox2.Location = new System.Drawing.Point(94, 22);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(240, 95);
             this.richTextBox2.TabIndex = 11;
@@ -426,6 +452,7 @@
             this.button10.TabIndex = 37;
             this.button10.Text = "Supprimer";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -436,6 +463,7 @@
             this.button11.TabIndex = 36;
             this.button11.Text = "Supprimer toutes les réclamations annulées";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // groupBox3
             // 
@@ -463,35 +491,21 @@
             this.pictureBox3.TabIndex = 36;
             this.pictureBox3.TabStop = false;
             // 
-            // label6
+            // label13
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(15, 193);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 16);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Sujet";
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(15, 178);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(126, 16);
+            this.label13.TabIndex = 37;
+            this.label13.Text = "Référence produit";
             // 
-            // label12
+            // textBox5
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(15, 168);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(33, 16);
-            this.label12.TabIndex = 36;
-            this.label12.Text = "Etat";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Réclamation en attente",
-            "Réclamation validée",
-            "Réclamation annulée"});
-            this.comboBox1.Location = new System.Drawing.Point(83, 160);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(217, 24);
-            this.comboBox1.TabIndex = 37;
+            this.textBox5.Location = new System.Drawing.Point(151, 175);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(183, 23);
+            this.textBox5.TabIndex = 38;
             // 
             // Traitement_personnel
             // 
@@ -563,7 +577,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.VScrollBar vScrollBar3;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
@@ -576,5 +589,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label13;
     }
 }

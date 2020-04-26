@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BEL;
 using DAL;
+using System.Data.OleDb;
 
 namespace ProjetPFA
 {
@@ -59,12 +60,46 @@ namespace ProjetPFA
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Reclamation p = ReclamationDAO.Get_reclamation_num(int.Parse(textBox1.Text));
+                textBox1.Text = p.Num.ToString();
+                richTextBox1.Text = p.Sujet;
+                textBox5.Text = p.Ref_prod.ToString();
+                textBox4.Text = p.Departement;
+                dateTimePicker2.Text = p.Date_ouverture.ToString();
+                dateTimePicker1.Text = p.Date_cloture.ToString();
+                comboBox1.Text = p.Etat_reclamation;
+                textBox2.Text = p.Id_client.ToString();
+                richTextBox2.Text = p.Decision;
 
+                string requete = String.Format("select nom_cl from client where ID_cl = '{0}';",p.Id_client);
+                OleDbDataReader rd = utils.lire(requete);
+                utils.Disconnect();
+
+                textBox3.Text = rd.GetString(0);
+
+                List<Reclamation> L = new List<Reclamation>();
+                L.Add(p);
+                dataGridView1.DataSource = L;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            try
+            {
+                ReclamationDAO.Update_reclamation_decision(int.Parse(textBox1.Text), richTextBox2.Text, comboBox1.Text,DateTime.Parse(dateTimePicker1.Text));
 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -109,6 +144,37 @@ namespace ProjetPFA
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                ReclamationDAO.Delete_reclamation(int.Parse(textBox7.Text));
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                ReclamationDAO.Delete_reclamation_annulée();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

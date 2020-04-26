@@ -100,7 +100,7 @@ namespace ProjetPFA
         {
             try
             {
-                ReclamationDAO.Update_reclamation_client(int.Parse(textBox4.Text), richTextBox1.Text, comboBox2.Text,int.Parse(textBox1.Text),int.Parse(comboBox1.Text), DateTime.Parse(dateTimePicker1.Text));
+                ReclamationDAO.Update_reclamation_client(int.Parse(textBox4.Text), richTextBox1.Text, comboBox2.Text,int.Parse(comboBox1.Text), DateTime.Parse(dateTimePicker1.Text));
             }
             catch (Exception ex)
             {
