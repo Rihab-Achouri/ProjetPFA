@@ -31,7 +31,9 @@ namespace ProjetPFA
 
         private void button6_Click(object sender, EventArgs e)
         {
-          
+            Accueil f1 = new Accueil();
+            f1.ShowDialog();
+            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -59,6 +61,7 @@ namespace ProjetPFA
             try
             {
                 PersonnelDAO.Update_personnel(int.Parse(textBox1.Text), textBox2.Text, textBox3.Text, int.Parse(textBox4.Text), textBox5.Text, textBox6.Text);
+                MessageBox.Show("UPDATE DONE");
             }
             catch (Exception ex)
             {
@@ -114,6 +117,16 @@ namespace ProjetPFA
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
         {
 
         }

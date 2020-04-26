@@ -198,6 +198,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "Modifier";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox2
             // 
@@ -248,6 +249,7 @@
             this.button3.TabIndex = 16;
             this.button3.Text = "Retour";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -259,6 +261,7 @@
             this.button4.TabIndex = 17;
             this.button4.Text = "Quiter";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label7
             // 

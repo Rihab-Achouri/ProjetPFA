@@ -94,7 +94,7 @@ namespace ProjetPFA
             try
             {
                 ReclamationDAO.Update_reclamation_decision(int.Parse(textBox1.Text), richTextBox2.Text, comboBox1.Text,DateTime.Parse(dateTimePicker1.Text));
-
+                MessageBox.Show("UPDATE DONE");
             }
             catch (Exception ex)
             {

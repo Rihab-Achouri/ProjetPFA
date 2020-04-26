@@ -331,9 +331,9 @@
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(11, 252);
+            this.button8.Location = new System.Drawing.Point(12, 252);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(243, 33);
+            this.button8.Size = new System.Drawing.Size(264, 33);
             this.button8.TabIndex = 44;
             this.button8.Text = "Afficher la liste de tous les clients";
             this.button8.UseVisualStyleBackColor = true;
@@ -357,16 +357,18 @@
             this.button10.TabIndex = 46;
             this.button10.Text = "Ajouter";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(674, 214);
+            this.button11.Location = new System.Drawing.Point(684, 252);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(106, 32);
             this.button11.TabIndex = 47;
             this.button11.Text = "Modifier";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Gérer_personnels_clients
             // 

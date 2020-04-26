@@ -29,7 +29,7 @@ namespace ProjetPFA
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Espace_Client f1 = new Espace_Client();
+            Accueil f1 = new Accueil();
             f1.ShowDialog();
             this.Hide();
         }

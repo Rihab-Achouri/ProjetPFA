@@ -60,6 +60,12 @@
     <Compile Include="Authentification.Designer.cs">
       <DependentUpon>Authentification.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mes_informations .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mes_informations .Designer.cs">
+      <DependentUpon>Mes_informations .cs</DependentUpon>
+    </Compile>
     <Compile Include="Nouveaux_Mission .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gérer_produits.resx">
       <DependentUpon>Gérer_produits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mes_informations .resx">
+      <DependentUpon>Mes_informations .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nouveaux_Mission .resx">
       <DependentUpon>Nouveaux_Mission .cs</DependentUpon>
