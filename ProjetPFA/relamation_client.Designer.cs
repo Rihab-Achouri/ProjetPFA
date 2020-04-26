@@ -92,9 +92,9 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(29, 113);
+            this.groupBox2.Location = new System.Drawing.Point(11, 113);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(335, 361);
+            this.groupBox2.Size = new System.Drawing.Size(353, 361);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Le contexe de la réclamation";
@@ -112,7 +112,7 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(75, 175);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(239, 25);
+            this.textBox3.Size = new System.Drawing.Size(255, 25);
             this.textBox3.TabIndex = 25;
             // 
             // comboBox1
@@ -120,14 +120,14 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(193, 66);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 26);
+            this.comboBox1.Size = new System.Drawing.Size(137, 26);
             this.comboBox1.TabIndex = 24;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(75, 140);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(239, 25);
+            this.dateTimePicker1.Size = new System.Drawing.Size(255, 25);
             this.dateTimePicker1.TabIndex = 20;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
@@ -135,7 +135,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(193, 29);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(121, 25);
+            this.textBox4.Size = new System.Drawing.Size(137, 25);
             this.textBox4.TabIndex = 22;
             // 
             // label10
@@ -151,7 +151,7 @@
             // 
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(219, 319);
+            this.button6.Location = new System.Drawing.Point(232, 319);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(95, 36);
             this.button6.TabIndex = 20;
@@ -167,14 +167,14 @@
             "Réclamation de non-conformités"});
             this.comboBox2.Location = new System.Drawing.Point(193, 104);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 26);
+            this.comboBox2.Size = new System.Drawing.Size(137, 26);
             this.comboBox2.TabIndex = 3;
             // 
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(118, 319);
+            this.button2.Location = new System.Drawing.Point(122, 319);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(95, 36);
             this.button2.TabIndex = 15;
@@ -187,7 +187,7 @@
             this.richTextBox1.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(13, 211);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(301, 91);
+            this.richTextBox1.Size = new System.Drawing.Size(317, 91);
             this.richTextBox1.TabIndex = 5;
             this.richTextBox1.Text = "Votre message";
             // 
@@ -203,7 +203,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 74);
+            this.label1.Location = new System.Drawing.Point(10, 69);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(139, 18);
             this.label1.TabIndex = 1;
@@ -293,9 +293,9 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(791, 452);
+            this.button3.Location = new System.Drawing.Point(743, 441);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(85, 28);
+            this.button3.Size = new System.Drawing.Size(102, 32);
             this.button3.TabIndex = 16;
             this.button3.Text = "Retour";
             this.button3.UseVisualStyleBackColor = true;
@@ -305,9 +305,9 @@
             // 
             this.button4.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.DarkRed;
-            this.button4.Location = new System.Drawing.Point(882, 452);
+            this.button4.Location = new System.Drawing.Point(863, 440);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(85, 28);
+            this.button4.Size = new System.Drawing.Size(102, 33);
             this.button4.TabIndex = 17;
             this.button4.Text = "Quiter";
             this.button4.UseVisualStyleBackColor = true;

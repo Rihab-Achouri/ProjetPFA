@@ -211,7 +211,7 @@
             this.groupBox2.Size = new System.Drawing.Size(352, 113);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Annuler une commande";
+            this.groupBox2.Text = "Recherche commande";
             // 
             // button2
             // 
@@ -220,7 +220,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(92, 29);
             this.button2.TabIndex = 14;
-            this.button2.Text = "Confirmer";
+            this.button2.Text = "Recherche ";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // label6
