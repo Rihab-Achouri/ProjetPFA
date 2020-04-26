@@ -46,7 +46,15 @@ namespace ProjetPFA
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                List<Reclamation> Listreclamations = ReclamationDAO.Get_reclamation();
+                dataGridView1.DataSource = Listreclamations;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -74,12 +82,28 @@ namespace ProjetPFA
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                List<Reclamation> Listreclamations = ReclamationDAO.Get_reclamation_non_traitée();
+                dataGridView1.DataSource = Listreclamations;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                List<Reclamation> Listreclamations = ReclamationDAO.Get_reclamation_annulée();
+                dataGridView1.DataSource = Listreclamations;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
