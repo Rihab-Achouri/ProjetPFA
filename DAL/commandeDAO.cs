@@ -10,18 +10,23 @@ namespace DAL
 {
     public class CommandeDAO
     {
-        public static bool passer_commande(int id, int reference_produit, int qt, int prix, DateTime date_1, DateTime date_2, DateTime date_3)
+        public static bool passer_commande(int id, int reference_produit, int qt, int prix, DateTime date_1, DateTime date_2)
         {
-            //num_commande=+1 et prix = qt* prix_unitaire
-            string requete = String.Format("insert into commande (num_commande, ID_cl, reference_produit, qt, prix, date_commande, date_livraison_réel, date_livraison_souhaité)" +
-                " values ('{0}','{1}','{2}','{3}','{4}','{5}','{6}');", id, reference_produit, qt, prix, date_1, date_2, date_3);
+            string req = String.Format("select max (num_commande) from commande");
+            OleDbDataReader rd = utils.lire(req);
+            int N = rd.GetInt32(0);
+            utils.Disconnect();
+
+            int num = N + 1;
+            string requete = String.Format("insert into commande (num_commande, ID_cl, reference_produit, qt, prix, date_commande, date_livraison_souhaité)" +
+                " values ('{0}','{1}','{2}','{3}','{4}','{5}','{6}');", num, id, reference_produit, qt, prix, date_1, date_2);
             return utils.miseajour(requete);
         }
 
-        public static bool Update_commande(int id, int reference_produit, int qt, int prix, DateTime date_1, DateTime date_2, DateTime date_3)
+        public static bool Update_commande(int num, int reference_produit, int qt, int prix, DateTime date_1, DateTime date_2)
         {
             string requete = String.Format("update commande set reference_produit='{0}', qt='{1}',prix ='{2}',date_commande ='{3}'," +
-                " date_livraison_réel='{4}', date_livraison_souhaité ='{5}' where ID_cl={6};", reference_produit, qt, prix, date_1, date_2, date_3, id);
+                " date_livraison_souhaité ='{4}' where num_commande = '{5}';", reference_produit, qt, prix, date_1, date_2, num);
             return utils.miseajour(requete);
         }
 

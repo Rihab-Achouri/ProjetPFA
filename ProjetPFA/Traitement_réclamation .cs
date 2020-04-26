@@ -75,9 +75,8 @@ namespace ProjetPFA
 
                 string requete = String.Format("select nom_cl from client where ID_cl = '{0}';",p.Id_client);
                 OleDbDataReader rd = utils.lire(requete);
-                utils.Disconnect();
-
                 textBox3.Text = rd.GetString(0);
+                utils.Disconnect();
 
                 List<Reclamation> L = new List<Reclamation>();
                 L.Add(p);
