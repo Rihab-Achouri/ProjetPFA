@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(relamation_client));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -56,8 +58,6 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -98,6 +98,22 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Le contexe de la réclamation";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(10, 178);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(42, 18);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Etat ";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(75, 175);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(239, 25);
+            this.textBox3.TabIndex = 25;
             // 
             // comboBox1
             // 
@@ -196,9 +212,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(10, 107);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 18);
+            this.label2.Size = new System.Drawing.Size(45, 18);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Departement";
+            this.label2.Text = "Type";
             // 
             // button1
             // 
@@ -344,22 +360,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(597, 176);
             this.dataGridView1.TabIndex = 20;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(75, 175);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(239, 25);
-            this.textBox3.TabIndex = 25;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 178);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 18);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "Etat ";
             // 
             // relamation_client
             // 
