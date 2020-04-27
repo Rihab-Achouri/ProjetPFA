@@ -57,7 +57,7 @@ namespace ProjetPFA
 
         private void button15_Click(object sender, EventArgs e)
         {
-            relamation_client f5 = new relamation_client();
+            reclamation_client f5 = new reclamation_client();
             f5.ShowDialog();
             this.Hide();
         }

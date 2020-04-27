@@ -41,6 +41,7 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -50,7 +51,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -178,6 +178,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Passer une commande";
             // 
+            // button6
+            // 
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Location = new System.Drawing.Point(245, 254);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(92, 29);
+            this.button6.TabIndex = 17;
+            this.button6.Text = "Consulter";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // button5
             // 
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -198,7 +209,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "Modifier";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button3
             // 
@@ -209,6 +220,7 @@
             this.button3.TabIndex = 16;
             this.button3.Text = "Retour";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -220,6 +232,7 @@
             this.button4.TabIndex = 17;
             this.button4.Text = "Quiter";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label7
             // 
@@ -264,23 +277,13 @@
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(391, 274);
+            this.button2.Location = new System.Drawing.Point(390, 274);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(254, 29);
             this.button2.TabIndex = 16;
             this.button2.Text = "Afficher toutes mes commandes";
             this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(245, 254);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(92, 29);
-            this.button6.TabIndex = 17;
-            this.button6.Text = "Consulter";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // passer_une_commande
             // 

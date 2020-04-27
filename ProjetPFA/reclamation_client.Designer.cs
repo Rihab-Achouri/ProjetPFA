@@ -1,6 +1,6 @@
 ﻿namespace ProjetPFA
 {
-    partial class relamation_client
+    partial class reclamation_client
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(relamation_client));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(reclamation_client));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -364,7 +364,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(597, 176);
             this.dataGridView1.TabIndex = 20;
             // 
-            // relamation_client
+            // reclamation_client
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -382,8 +382,8 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "relamation_client";
-            this.Text = "relamation_client";
+            this.Name = "reclamation_client";
+            this.Text = "reclamation_client";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
