@@ -83,6 +83,7 @@
             this.button3.TabIndex = 50;
             this.button3.Text = "Quiter";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button5
             // 
@@ -93,6 +94,7 @@
             this.button5.TabIndex = 49;
             this.button5.Text = "Retour";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label2
             // 
@@ -126,6 +128,7 @@
             this.button4.TabIndex = 65;
             this.button4.Text = "Mes informations";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox3
             // 
@@ -158,6 +161,7 @@
             this.button8.TabIndex = 79;
             this.button8.Text = "Gestion réclamations";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button13
             // 
@@ -180,6 +184,7 @@
             this.button1.TabIndex = 81;
             this.button1.Text = "Gérer missions";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -202,6 +207,7 @@
             this.button6.TabIndex = 83;
             this.button6.Text = "Gérer produits";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // pictureBox2
             // 
@@ -223,6 +229,7 @@
             this.button11.TabIndex = 84;
             this.button11.Text = "Passer une commande";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button14
             // 
@@ -234,6 +241,7 @@
             this.button14.TabIndex = 85;
             this.button14.Text = "Mes suggestions";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -245,6 +253,7 @@
             this.button15.TabIndex = 87;
             this.button15.Text = "Passer une réclamation";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // Accueil
             // 

@@ -58,6 +58,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MissionDAO.cs" />
     <Compile Include="CommandeDAO.cs" />
     <Compile Include="PersonnelDAO.cs" />
     <Compile Include="ProduitDAO.cs" />

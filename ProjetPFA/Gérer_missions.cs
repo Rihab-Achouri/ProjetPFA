@@ -49,12 +49,19 @@ namespace ProjetPFA
 
         private void button8_Click(object sender, EventArgs e)
         {
-           
+            Accueil f1 = new Accueil();
+            f1.ShowDialog();
+            this.Hide();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             this.Close();
+
+        }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
 
         }
     }

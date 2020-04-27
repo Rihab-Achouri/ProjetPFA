@@ -46,7 +46,9 @@ namespace ProjetPFA
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            Accueil f1 = new Accueil();
+            f1.ShowDialog();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -101,6 +103,7 @@ namespace ProjetPFA
             try
             {
                 ReclamationDAO.Update_reclamation_client(int.Parse(textBox4.Text), richTextBox1.Text, comboBox2.Text,int.Parse(comboBox1.Text), DateTime.Parse(dateTimePicker1.Text));
+                MessageBox.Show("UPDATE DONE");
             }
             catch (Exception ex)
             {

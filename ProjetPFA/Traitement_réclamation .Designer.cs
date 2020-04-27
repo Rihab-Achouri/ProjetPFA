@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Traitement_personnel));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -69,8 +71,6 @@
             this.button11 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -110,17 +110,33 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Red;
             this.groupBox1.Location = new System.Drawing.Point(12, 97);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(343, 283);
+            this.groupBox1.Size = new System.Drawing.Size(353, 283);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Réclamation arrivées";
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(142, 175);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(201, 23);
+            this.textBox5.TabIndex = 38;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(15, 178);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(126, 16);
+            this.label13.TabIndex = 37;
+            this.label13.Text = "Référence produit";
+            // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Font = new System.Drawing.Font("Maiandra GD", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(151, 147);
+            this.dateTimePicker2.Location = new System.Drawing.Point(142, 147);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(183, 22);
+            this.dateTimePicker2.Size = new System.Drawing.Size(203, 22);
             this.dateTimePicker2.TabIndex = 36;
             // 
             // label6
@@ -154,36 +170,36 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(94, 204);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(240, 73);
+            this.richTextBox1.Size = new System.Drawing.Size(249, 73);
             this.richTextBox1.TabIndex = 8;
             this.richTextBox1.Text = "";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(151, 115);
+            this.textBox4.Location = new System.Drawing.Point(142, 115);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(183, 23);
+            this.textBox4.Size = new System.Drawing.Size(203, 23);
             this.textBox4.TabIndex = 6;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(151, 86);
+            this.textBox3.Location = new System.Drawing.Point(142, 86);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(183, 23);
+            this.textBox3.Size = new System.Drawing.Size(201, 23);
             this.textBox3.TabIndex = 5;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(151, 57);
+            this.textBox2.Location = new System.Drawing.Point(142, 57);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(183, 23);
+            this.textBox2.Size = new System.Drawing.Size(201, 23);
             this.textBox2.TabIndex = 4;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(151, 26);
+            this.textBox1.Location = new System.Drawing.Point(142, 26);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(183, 23);
+            this.textBox1.Size = new System.Drawing.Size(201, 23);
             this.textBox1.TabIndex = 3;
             // 
             // label3
@@ -491,27 +507,11 @@
             this.pictureBox3.TabIndex = 36;
             this.pictureBox3.TabStop = false;
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(15, 178);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(126, 16);
-            this.label13.TabIndex = 37;
-            this.label13.Text = "Référence produit";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(151, 175);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(183, 23);
-            this.textBox5.TabIndex = 38;
-            // 
             // Traitement_personnel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(977, 576);
+            this.ClientSize = new System.Drawing.Size(977, 579);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.label11);
