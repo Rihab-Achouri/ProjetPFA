@@ -247,7 +247,7 @@
             // 
             this.button5.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.DarkRed;
-            this.button5.Location = new System.Drawing.Point(871, 436);
+            this.button5.Location = new System.Drawing.Point(841, 415);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(106, 32);
             this.button5.TabIndex = 29;
@@ -258,7 +258,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(871, 398);
+            this.button6.Location = new System.Drawing.Point(841, 354);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(106, 32);
             this.button6.TabIndex = 30;
@@ -374,7 +374,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(979, 480);
+            this.ClientSize = new System.Drawing.Size(961, 480);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
