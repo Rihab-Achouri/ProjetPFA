@@ -11,7 +11,7 @@ namespace DAL
     class MissionDAO
     {
 
-        public static bool Insert_reclamation_client(string sujet, string departement, int id_client, int ref_prod, DateTime date_ouverture)
+        public static bool Insert_mission(string sujet, string departement, int id_client, int ref_prod, DateTime date_ouverture)
         {
             string req = String.Format("select max (num) from reclamation");
             int num = int.Parse(req) + 1;
