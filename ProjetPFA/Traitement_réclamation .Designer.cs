@@ -168,11 +168,12 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(94, 204);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(249, 73);
             this.richTextBox1.TabIndex = 8;
-            this.richTextBox1.Text = "";
+            this.richTextBox1.Text = "Votre message";
             // 
             // textBox4
             // 
@@ -296,11 +297,12 @@
             // 
             // richTextBox2
             // 
+            this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox2.Location = new System.Drawing.Point(94, 22);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(240, 95);
             this.richTextBox2.TabIndex = 11;
-            this.richTextBox2.Text = "";
+            this.richTextBox2.Text = "Votre message";
             // 
             // button1
             // 
@@ -511,7 +513,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(977, 579);
+            this.ClientSize = new System.Drawing.Size(977, 583);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.label11);

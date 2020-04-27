@@ -228,7 +228,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 70);
+            this.label1.Location = new System.Drawing.Point(16, 65);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(33, 16);
             this.label1.TabIndex = 44;
@@ -307,11 +307,12 @@
             // 
             // richTextBox2
             // 
+            this.richTextBox2.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox2.Location = new System.Drawing.Point(139, 209);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(242, 96);
             this.richTextBox2.TabIndex = 8;
-            this.richTextBox2.Text = "";
+            this.richTextBox2.Text = "Votre message";
             // 
             // textBox7
             // 
@@ -339,22 +340,22 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Maassslicer", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.MediumBlue;
             this.label12.Location = new System.Drawing.Point(433, 153);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(229, 16);
+            this.label12.Size = new System.Drawing.Size(259, 16);
             this.label12.TabIndex = 1;
             this.label12.Text = "C’est d’aimer ce que vous faites";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Maassslicer", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.MediumBlue;
             this.label13.Location = new System.Drawing.Point(394, 116);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(282, 16);
+            this.label13.Size = new System.Drawing.Size(321, 16);
             this.label13.TabIndex = 0;
             this.label13.Text = "La seule manière de faire du bon travail";
             // 
