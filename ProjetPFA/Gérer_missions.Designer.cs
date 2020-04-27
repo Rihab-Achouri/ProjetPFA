@@ -69,7 +69,7 @@
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(418, 213);
+            this.button9.Location = new System.Drawing.Point(428, 213);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(419, 28);
             this.button9.TabIndex = 50;
@@ -80,7 +80,7 @@
             // 
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(640, 500);
+            this.button8.Location = new System.Drawing.Point(643, 500);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(102, 32);
             this.button8.TabIndex = 47;
@@ -93,7 +93,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.DarkRed;
-            this.button7.Location = new System.Drawing.Point(760, 500);
+            this.button7.Location = new System.Drawing.Point(763, 500);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(102, 32);
             this.button7.TabIndex = 46;
@@ -104,7 +104,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(418, 250);
+            this.button6.Location = new System.Drawing.Point(428, 250);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(419, 28);
             this.button6.TabIndex = 45;
@@ -113,24 +113,25 @@
             // 
             // vScrollBar1
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(817, 323);
+            this.vScrollBar1.Location = new System.Drawing.Point(854, 319);
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(20, 166);
             this.vScrollBar1.TabIndex = 43;
+            this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vScrollBar1_Scroll);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToOrderColumns = true;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(418, 322);
+            this.dataGridView1.Location = new System.Drawing.Point(421, 322);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(396, 166);
+            this.dataGridView1.Size = new System.Drawing.Size(430, 166);
             this.dataGridView1.TabIndex = 42;
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(418, 288);
+            this.button5.Location = new System.Drawing.Point(427, 288);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(419, 28);
             this.button5.TabIndex = 41;
@@ -170,7 +171,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(715, 88);
+            this.pictureBox2.Location = new System.Drawing.Point(718, 88);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(156, 119);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -381,7 +382,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(874, 537);
+            this.ClientSize = new System.Drawing.Size(883, 537);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox2);
