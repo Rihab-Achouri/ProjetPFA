@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BEL;
+using DAL;
+using System.Data.OleDb;
 
 namespace ProjetPFA
 {
@@ -23,6 +26,42 @@ namespace ProjetPFA
         }
 
         private void button5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string requete = String.Format("select prix_unitaire from produit where reference = '{0}';", int.Parse(comboBox1.Text));
+                OleDbDataReader rd = utils.lire(requete);
+                int prix = rd.GetInt32(0) * int.Parse(textBox2.Text);
+                utils.Disconnect();
+
+                CommandeDAO.passer_commande(int.Parse(textBox1.Text), int.Parse(comboBox1.Text),int.Parse(textBox2.Text),prix, DateTime.Parse(dateTimePicker1.Text), DateTime.Parse(dateTimePicker2.Text));
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string requete = String.Format("select prix_unitaire from produit where reference = '{0}';", int.Parse(comboBox1.Text));
+                OleDbDataReader rd = utils.lire(requete);
+                int prix = rd.GetInt32(0) * int.Parse(textBox2.Text);
+                utils.Disconnect();
+
+                CommandeDAO.Update_commande(int.Parse(textBox1.Text), int.Parse(comboBox1.Text), int.Parse(textBox2.Text), prix, DateTime.Parse(dateTimePicker1.Text), DateTime.Parse(dateTimePicker2.Text));
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
         {
 
         }
