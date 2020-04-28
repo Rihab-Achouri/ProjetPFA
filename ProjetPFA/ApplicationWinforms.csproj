@@ -66,12 +66,6 @@
     <Compile Include="Mes_informations .Designer.cs">
       <DependentUpon>Mes_informations .cs</DependentUpon>
     </Compile>
-    <Compile Include="Nouveaux_Mission .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Nouveaux_Mission .Designer.cs">
-      <DependentUpon>Nouveaux_Mission .cs</DependentUpon>
-    </Compile>
     <Compile Include="Gérer_produits.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,9 +121,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Mes_informations .resx">
       <DependentUpon>Mes_informations .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Nouveaux_Mission .resx">
-      <DependentUpon>Nouveaux_Mission .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="passer_une_commande.resx">
       <DependentUpon>passer_une_commande.cs</DependentUpon>
