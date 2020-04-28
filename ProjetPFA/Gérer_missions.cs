@@ -113,5 +113,59 @@ namespace ProjetPFA
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                List<Mission> ListMissions = MissionDAO.Get_Mission_Cloturée();
+                dataGridView1.DataSource = ListMissions;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                List<Mission> ListMissions = MissionDAO.Get_Mission();
+                dataGridView1.DataSource = ListMissions;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                List<Mission> ListMissions = MissionDAO.Get_Mission_Non_Traitée();
+                dataGridView1.DataSource = ListMissions;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
