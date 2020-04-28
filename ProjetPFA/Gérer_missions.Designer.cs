@@ -42,7 +42,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -60,6 +59,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -75,6 +75,7 @@
             this.button9.TabIndex = 50;
             this.button9.Text = "Afficher la liste des missions cloturées";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click_1);
             // 
             // button8
             // 
@@ -110,6 +111,7 @@
             this.button6.TabIndex = 45;
             this.button6.Text = "Afficher la liste des missions non traitées";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // vScrollBar1
             // 
@@ -137,6 +139,7 @@
             this.button5.TabIndex = 41;
             this.button5.Text = "Afficher la liste de toutes les missions";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button3
             // 
@@ -218,6 +221,28 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Mes missions  ";
             // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(15, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Num";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(139, 178);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(242, 23);
+            this.dateTimePicker1.TabIndex = 2;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Location = new System.Drawing.Point(139, 61);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(242, 24);
+            this.comboBox1.TabIndex = 3;
+            // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Location = new System.Drawing.Point(139, 139);
@@ -268,7 +293,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(15, 104);
+            this.label10.Location = new System.Drawing.Point(12, 104);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(91, 16);
             this.label10.TabIndex = 0;
@@ -349,6 +374,15 @@
             this.button10.TabIndex = 55;
             this.button10.Text = "Traiter";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(15, 64);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Etat";
             // 
             // Gérer_mission
             // 
@@ -416,7 +450,7 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
