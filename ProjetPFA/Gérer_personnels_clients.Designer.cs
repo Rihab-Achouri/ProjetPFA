@@ -54,11 +54,11 @@
             this.button7 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.button12 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -312,6 +312,17 @@
             this.groupBox1.Text = "Supprimer client ";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(6, 29);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(126, 16);
+            this.label7.TabIndex = 34;
+            this.label7.Text = "Entrer l\'identifiant";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label8);
@@ -353,17 +364,6 @@
             this.button12.Text = "Confirmer";
             this.button12.UseVisualStyleBackColor = true;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(6, 29);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 16);
-            this.label7.TabIndex = 34;
-            this.label7.Text = "Entrer l\'identifiant";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -388,12 +388,13 @@
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(675, 115);
+            this.button9.Location = new System.Drawing.Point(674, 80);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(105, 32);
             this.button9.TabIndex = 45;
             this.button9.Text = "Rechercher";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 

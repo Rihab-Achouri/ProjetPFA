@@ -147,6 +147,7 @@
             this.button3.TabIndex = 39;
             this.button3.Text = "Supprimer";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -157,6 +158,7 @@
             this.button1.TabIndex = 37;
             this.button1.Text = "Rechercher";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -327,6 +329,7 @@
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(242, 23);
             this.textBox10.TabIndex = 3;
+            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
             // label11
             // 
@@ -368,6 +371,7 @@
             this.button2.TabIndex = 38;
             this.button2.Text = "Consulter ";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button10
             // 

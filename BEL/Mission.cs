@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
-    class Mission
+    public class Mission
     {
         public int Num { get; set; }
         public string Etat { get; set; }
