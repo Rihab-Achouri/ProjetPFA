@@ -173,7 +173,7 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(249, 73);
             this.richTextBox1.TabIndex = 8;
-            this.richTextBox1.Text = "Votre message";
+            this.richTextBox1.Text = "";
             // 
             // textBox4
             // 
@@ -302,7 +302,7 @@
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(240, 95);
             this.richTextBox2.TabIndex = 11;
-            this.richTextBox2.Text = "Votre message";
+            this.richTextBox2.Text = "";
             // 
             // button1
             // 

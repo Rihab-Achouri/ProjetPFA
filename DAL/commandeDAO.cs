@@ -36,7 +36,7 @@ namespace DAL
             return utils.miseajour(requete);
         }
 
-        public static Commande Get_commande_ID(int rf)
+        public static Commande Get_commande_reference(int rf)
         {
             string requete = String.Format("select * from commande where num_commande={0};", rf);
             OleDbDataReader rd = utils.lire(requete);
@@ -71,6 +71,31 @@ namespace DAL
                 c = new Commande
                 {
                     Num_commande= rd.GetInt32(0),
+                    ID_cl = rd.GetInt32(1),
+                    Reference_produit = rd.GetInt32(2),
+                    Qt = rd.GetInt32(3),
+                    Prix = rd.GetInt32(4),
+                    Date_commande = rd.GetDateTime(5),
+                    Date_livraison_réel = rd.GetDateTime(6),
+                    Date_livraison_souhaité = rd.GetDateTime(7),
+
+                };
+                L.Add(c);
+            }
+            utils.Disconnect();
+            return L;
+        }
+        public static List<Commande> Get_commande_Id_client(int id_client)
+        {
+            string requete = String.Format("select * from commande where ID_cl = '{0}';", id_client);
+            OleDbDataReader rd = utils.lire(requete);
+            List<Commande> L = new List<Commande>();
+            Commande c;
+            while (rd.Read())
+            {
+                c = new Commande
+                {
+                    Num_commande = rd.GetInt32(0),
                     ID_cl = rd.GetInt32(1),
                     Reference_produit = rd.GetInt32(2),
                     Qt = rd.GetInt32(3),

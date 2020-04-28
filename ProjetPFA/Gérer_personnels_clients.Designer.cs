@@ -304,7 +304,7 @@
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.groupBox1.Location = new System.Drawing.Point(12, 120);
+            this.groupBox1.Location = new System.Drawing.Point(21, 120);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(354, 92);
             this.groupBox1.TabIndex = 34;
@@ -330,7 +330,7 @@
             this.groupBox2.Controls.Add(this.button12);
             this.groupBox2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.groupBox2.Location = new System.Drawing.Point(12, 120);
+            this.groupBox2.Location = new System.Drawing.Point(27, 134);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(354, 92);
             this.groupBox2.TabIndex = 35;
@@ -378,9 +378,9 @@
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Maiandra GD", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(11, 252);
+            this.button8.Location = new System.Drawing.Point(12, 253);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(265, 33);
+            this.button8.Size = new System.Drawing.Size(239, 33);
             this.button8.TabIndex = 44;
             this.button8.Text = "Afficher la liste de tous les clients";
             this.button8.UseVisualStyleBackColor = true;
@@ -388,7 +388,7 @@
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(674, 80);
+            this.button9.Location = new System.Drawing.Point(665, 115);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(105, 32);
             this.button9.TabIndex = 45;
@@ -399,7 +399,7 @@
             // button10
             // 
             this.button10.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(674, 165);
+            this.button10.Location = new System.Drawing.Point(664, 165);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(106, 32);
             this.button10.TabIndex = 46;
@@ -409,7 +409,7 @@
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(675, 214);
+            this.button11.Location = new System.Drawing.Point(665, 214);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(105, 32);
             this.button11.TabIndex = 47;

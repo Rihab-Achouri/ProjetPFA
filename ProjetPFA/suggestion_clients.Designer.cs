@@ -68,11 +68,11 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(193, 328);
+            this.richTextBox1.Location = new System.Drawing.Point(199, 328);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(172, 95);
             this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.Text = "Votre message";
+            this.richTextBox1.Text = "";
             // 
             // label1
             // 
@@ -90,7 +90,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Green;
-            this.label2.Location = new System.Drawing.Point(190, 306);
+            this.label2.Location = new System.Drawing.Point(196, 306);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(175, 18);
             this.label2.TabIndex = 4;
@@ -122,7 +122,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(15, 328);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(155, 20);
+            this.textBox1.Size = new System.Drawing.Size(166, 20);
             this.textBox1.TabIndex = 8;
             // 
             // button2
@@ -167,9 +167,9 @@
             this.label5.ForeColor = System.Drawing.Color.Green;
             this.label5.Location = new System.Drawing.Point(12, 306);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(158, 18);
+            this.label5.Size = new System.Drawing.Size(178, 18);
             this.label5.TabIndex = 12;
-            this.label5.Text = "Entrer votre identité";
+            this.label5.Text = "Entrer votre identifiant";
             // 
             // suggestion_clients
             // 

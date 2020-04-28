@@ -46,11 +46,11 @@
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -59,7 +59,7 @@
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(311, 176);
+            this.button11.Location = new System.Drawing.Point(311, 165);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(106, 32);
             this.button11.TabIndex = 65;
@@ -229,6 +229,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Modifier/supprimer informations ";
             // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(311, 119);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(106, 32);
+            this.button10.TabIndex = 64;
+            this.button10.Text = "Ajouter";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(311, 127);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(106, 32);
+            this.button7.TabIndex = 62;
+            this.button7.Text = "Ajouter";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
@@ -262,28 +284,6 @@
             this.button1.Text = "Retour";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button10
-            // 
-            this.button10.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(311, 127);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(106, 32);
-            this.button10.TabIndex = 64;
-            this.button10.Text = "Ajouter";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // button7
-            // 
-            this.button7.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(311, 127);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(106, 32);
-            this.button7.TabIndex = 62;
-            this.button7.Text = "Ajouter";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Mes_informations
             // 
