@@ -12,9 +12,9 @@ using DAL;
 
 namespace ProjetPFA
 {
-    public partial class relamation_client : Form
+    public partial class reclamation_client : Form
     {
-        public relamation_client()
+        public reclamation_client()
         {
             InitializeComponent();
         }

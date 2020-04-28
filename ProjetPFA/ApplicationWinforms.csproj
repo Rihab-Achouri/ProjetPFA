@@ -110,11 +110,11 @@
     <Compile Include="Traitement_réclamation .Designer.cs">
       <DependentUpon>Traitement_réclamation .cs</DependentUpon>
     </Compile>
-    <Compile Include="relamation_client.cs">
+    <Compile Include="reclamation_client.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="relamation_client.Designer.cs">
-      <DependentUpon>relamation_client.cs</DependentUpon>
+    <Compile Include="reclamation_client.Designer.cs">
+      <DependentUpon>reclamation_client.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Accueil.resx">
       <DependentUpon>Accueil.cs</DependentUpon>
@@ -155,8 +155,8 @@
     <EmbeddedResource Include="Traitement_réclamation .resx">
       <DependentUpon>Traitement_réclamation .cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="relamation_client.resx">
-      <DependentUpon>relamation_client.cs</DependentUpon>
+    <EmbeddedResource Include="reclamation_client.resx">
+      <DependentUpon>reclamation_client.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
