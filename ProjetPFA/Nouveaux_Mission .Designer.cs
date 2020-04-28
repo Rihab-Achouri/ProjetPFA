@@ -53,8 +53,7 @@
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.tabControl1.SuspendLayout();
-            this.toolStripContainer1.SuspendLayout();
+     
             this.SuspendLayout();
             // 
             // button14
@@ -313,9 +312,7 @@
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.tabControl1.ResumeLayout(false);
-            this.toolStripContainer1.ResumeLayout(false);
-            this.toolStripContainer1.PerformLayout();
+           
             this.ResumeLayout(false);
             this.PerformLayout();
 
