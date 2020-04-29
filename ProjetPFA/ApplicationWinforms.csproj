@@ -122,6 +122,9 @@
     <EmbeddedResource Include="Authentification.resx">
       <DependentUpon>Authentification.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gérer_produits.resx">
       <DependentUpon>Gérer_produits.cs</DependentUpon>
     </EmbeddedResource>

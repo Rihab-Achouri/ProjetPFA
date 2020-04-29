@@ -42,6 +42,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -59,7 +60,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -166,7 +166,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(246, 92);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -189,7 +189,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Lucida Calligraphy", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label9.Location = new System.Drawing.Point(270, 32);
+            this.label9.Location = new System.Drawing.Point(267, 32);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(496, 27);
             this.label9.TabIndex = 52;
@@ -220,6 +220,14 @@
             this.groupBox2.TabIndex = 53;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Mes missions  ";
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(15, 64);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Etat";
             // 
             // label1
             // 
@@ -375,14 +383,6 @@
             this.button10.Text = "Traiter";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(15, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 23);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Etat";
             // 
             // Gérer_mission
             // 
