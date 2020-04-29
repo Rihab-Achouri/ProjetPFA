@@ -153,9 +153,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(12, 206);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 16);
+            this.label4.Size = new System.Drawing.Size(41, 16);
             this.label4.TabIndex = 14;
-            this.label4.Text = "Mot de passe";
+            this.label4.Text = "User";
             // 
             // comboBox1
             // 
