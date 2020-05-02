@@ -357,12 +357,13 @@
             // button12
             // 
             this.button12.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(248, 52);
+            this.button12.Location = new System.Drawing.Point(244, 54);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(98, 32);
             this.button12.TabIndex = 26;
             this.button12.Text = "Confirmer";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // label9
             // 
@@ -384,6 +385,7 @@
             this.button8.TabIndex = 44;
             this.button8.Text = "Afficher la liste de tous les clients";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -405,6 +407,7 @@
             this.button10.TabIndex = 46;
             this.button10.Text = "Ajouter";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click_1);
             // 
             // button11
             // 

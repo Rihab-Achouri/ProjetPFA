@@ -97,6 +97,11 @@
     <Compile Include="passer_une_commande.Designer.cs">
       <DependentUpon>passer_une_commande.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reclamation_ClientDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reclamation_ClientDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="suggestion_clients.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,6 +191,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Reclamation_ClientDataSet.xsc">
+      <DependentUpon>Reclamation_ClientDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reclamation_ClientDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Reclamation_ClientDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reclamation_ClientDataSet.xss">
+      <DependentUpon>Reclamation_ClientDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -199,6 +215,11 @@
       <Project>{c3ba073e-126f-449b-b97b-267cdef6457a}</Project>
       <Name>DAL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reclamation_Client.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
