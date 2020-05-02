@@ -46,13 +46,13 @@
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -233,6 +233,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Modifier/supprimer informations ";
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(311, 62);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(106, 32);
+            this.button2.TabIndex = 66;
+            this.button2.Text = "Consulter";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(311, 53);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(106, 32);
+            this.button5.TabIndex = 67;
+            this.button5.Text = "Consulter";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // button10
             // 
             this.button10.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -288,26 +310,6 @@
             this.button1.Text = "Retour";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(311, 62);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(106, 32);
-            this.button2.TabIndex = 66;
-            this.button2.Text = "Consulter";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Maiandra GD", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(311, 53);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(106, 32);
-            this.button5.TabIndex = 67;
-            this.button5.Text = "Consulter";
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // Mes_informations
             // 
