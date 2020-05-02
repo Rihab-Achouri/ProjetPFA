@@ -63,6 +63,7 @@
     <Compile Include="PersonnelDAO.cs" />
     <Compile Include="ProduitDAO.cs" />
     <Compile Include="ReclamationDAO.cs" />
+    <Compile Include="taux-service.cs" />
     <Compile Include="utils.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
