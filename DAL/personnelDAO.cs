@@ -13,7 +13,7 @@ namespace DAL
 
         public static bool Insert_personnel(int id, string nom, string prenom, int tel, string adresse_mail, string poste)
         {
-            string requete = String.Format("insert into personnel (ID, nom,prenom,tel, adresse_mail, post)" +
+            string requete = String.Format("insert into personnel (ID, nom, prenom, tel, adresse_mail, poste)" +
                 " values ('{0}','{1}','{2}','{3}','{4}',{5}');", id, nom, prenom, tel, adresse_mail, poste);
             return utils.miseajour(requete);
         }
@@ -21,7 +21,7 @@ namespace DAL
         public static bool Update_personnel(int id, string nom, string prenom, int tel, string adresse_mail, string poste)
         {
             string requete = String.Format("update personnel set nom='{0}', prenom='{1}'," +
-                " tel='{2}', adresse_mail='{3}', post='{4}' where ID={5};", nom, prenom, tel, adresse_mail, poste, id);
+                " tel='{2}', adresse_mail='{3}', poste='{4}' where ID={5};", nom, prenom, tel, adresse_mail, poste, id);
             return utils.miseajour(requete);
         }
 
